@@ -1,0 +1,79 @@
+
+/*Imagenes excursiones*/
+.galeria{
+    display: flex;
+    background-color: darkkhaki;
+    width: 100%;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid black;
+  }
+ .galeria__img{
+    display: flex;
+    border-radius: 5%;
+    margin: 15px;
+    width: 200px;
+    height: auto;
+    align-items: center;
+    &:hover{
+      transform: scale(1.5, 1.5);
+   }
+ }
+ .img-responsive-opaca{
+   width: 100%;
+   height: auto;
+   opacity: 0.6;
+}
+
+#paisaje{
+   display: block;
+   width: 500px;
+   height: auto;
+   margin: 50px auto;
+}
+
+.modal__img{
+   width: 100%;
+}
+.mapaContacto{
+   width: 100%;
+   min-height: 400px;
+   height: auto;
+}
+
+.banner__destinos{
+  color:red;
+}
+
+//Galería circular de la página "excursiones.html"
+.galeriaCircular{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+   flex-grow: 1;
+}
+
+.circular {
+   margin: 15px;
+   display: inline-block;
+   position: relative;
+   width: 350px;
+   height: 350px;
+   overflow: hidden;
+   border-radius: 50%;
+ }
+ 
+ .circular img {
+   width: auto;
+   height: 100%;
+   margin-left: 0;
+ }
+
+.flag{
+   width: 30px;
+}
