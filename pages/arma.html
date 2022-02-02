@@ -77,7 +77,193 @@
   </header>
         
   <main class="container-fluid margen p-5">
-      <h1>Este sitio está en construccion, no deberias estar aqui!</h1>
+  
+
+      <h2 class="text-center destinos__paquetes">Armá tu viaje</h3>
+
+
+    <form class="row">
+      <!-- Nombre -->
+      <div class="mb-3 col-12 col-md-6">
+        <label for="inputNombre" class="form-label">Nombre:</label>
+        <input type="text" class="form-control" id="inputNombre">
+      </div>
+
+      <!-- apellido -->
+      <div class="mb-3 col-12 col-md-6">
+        <label for="inputApellido" class="form-label">Apellido:</label>
+        <input type="text" class="form-control" id="inputApellido">
+      </div>
+
+      <!-- Pais de residencia -->
+      <div class="mb-3 col-12 col-md-6">
+        <label for="inputPais" class="form-label">Pais de residencia:</label>
+        <input type="text" class="form-control" id="inputPais">
+      </div>
+
+      <!-- idioma -->
+      <div class="mb-3 col-12 col-md-6">
+        <label for="inputPais" class="form-label">Idioma:</label>
+        <select class="form-select" aria-label="Default select example">
+          <option selected value="es">Español</option>
+          <option value="en">Ingles</option>
+          <option value="pt">Portugues</option>
+          <option value="fr">Frances</option>
+          <option value="it">Italiano</option>
+        </select>
+      </div>
+
+
+      <!-- mail -->
+      <div class="mb-3 col-12 col-md-6">
+        <label for="inputMail" class="form-label">Dirección de email:</label>
+        <input type="email" class="form-control" id="inputMail" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Nunca compartiremos tu mail con nadie mas</div>
+      </div>
+
+      <!-- telefono contacto -->
+      <div class="mb-3 col-12 col-md-6">
+        <label for="inputTelefono" class="form-label">Telefono de contacto:</label>
+        <input type="number" class="form-control" id="inputTelefono">
+      </div>
+
+
+      <!-- fecha salida -->
+      <div class="mb-3 row">
+        <div class="col-12 col-md-6">
+          <label for="inputFecha" class="form-label">Fecha de llegada:</label>
+          <input type="date" class="form-control" id="inputFecha">
+        </div>
+          <!-- checkbox fecha flexibles -->
+        <div class="mt-md-5 form-check col-12 col-md-6">
+          <input class="form-check-input" type="checkbox" value="" id="fechaFlexible">
+          <label class="form-check-label" for="fechaFlexible">
+            Fechas flexibles
+          </label>
+        </div>
+      </div>
+
+      <!-- destinos (lista de chebox)-->
+      <br><br><hr>
+
+      <fieldset class="row mb-4">
+        <div class="col-12 text-center">Destinos</div>
+        <div class="form-check col-12 col-md-6 col-lg-3">
+          <input class="form-check-input" type="checkbox" value="bsas" id="destinos" checked>
+          <label class="form-check-label" for="destinos">
+            Buenos Aires
+          </label>
+        </div>
+        <div class="form-check col-12 col-md-6 col-lg-3">
+          <input class="form-check-input" type="checkbox" value="iguazu" id="destinos">
+          <label class="form-check-label" for="destinos">
+            Iguazú
+          </label>
+        </div>
+        <div class="form-check col-12 col-md-6 col-lg-3">
+          <input class="form-check-input" type="checkbox" value="syj" id="destinos">
+          <label class="form-check-label" for="destinos">
+            Salta y Jujuy
+          </label>
+        </div>
+        <div class="form-check col-12 col-md-6 col-lg-3">
+          <input class="form-check-input" type="checkbox" value="mendoza" id="destinos">
+          <label class="form-check-label" for="destinos">
+            Mendoza
+          </label>
+        </div>
+        <div class="form-check col-12 col-md-6 col-lg-3">
+          <input class="form-check-input" type="checkbox" value="bariloche" id="destinos">
+          <label class="form-check-label" for="destinos">
+            Bariloche
+          </label>
+        </div>
+        <div class="form-check col-12 col-md-6 col-lg-3">
+          <input class="form-check-input" type="checkbox" value="puertoMadryn" id="destinos">
+          <label class="form-check-label" for="destinos">
+            Puerto Madryn
+          </label>
+        </div>
+        <div class="form-check col-12 col-md-6 col-lg-3">
+          <input class="form-check-input" type="checkbox" value="calafate" id="destinos">
+          <label class="form-check-label" for="destinos">
+            Calafate
+          </label>
+        </div>
+        <div class="form-check col-12 col-md-6 col-lg-3">
+          <input class="form-check-input" type="checkbox" value="ushuaia" id="destinos">
+          <label class="form-check-label" for="destinos">
+            Ushuaia
+          </label>
+        </div>
+      </fieldset>
+
+      <hr>
+
+      <!-- Cantidad de noches -->
+      <div class="mb-3 col-12 col-md-6">
+        <label for="inputNoches" class="form-label">Cantidad de noches</label>
+        <input type="number" class="form-control" id="inputNoches">
+      </div>
+
+      <!-- Cantidad de pasajeros -->
+      <div class="mb-3 col-6 col-md-3">
+        <label for="inputAdultos" class="form-label">Adultos</label>
+        <input type="number" class="form-control" id="inputAdultos">
+      </div>
+      <div class="mb-3 col-6 col-md-3">
+        <label for="inputNinos" class="form-label">Niños</label>
+        <input type="number" class="form-control" id="inputNinos">
+      </div>
+      
+
+      <!-- Nivel de alojamiento -->
+      <div class="mb-3 col-12 col-md-6 text-center">Nivel de alojamiento:
+        <div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">5 estrellas</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">4 estrellas</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+            <label class="form-check-label" for="inlineRadio3">3 estrellas</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+            <label class="form-check-label" for="inlineRadio4">hostel</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Presupuesto estimado -->
+      <div class="mb-3 col-12 col-md-6">
+        <label for="inputPresupuesto" class="form-label">Presupuesto total estimado</label>
+        <input type="number" class="form-control" id="inputPresupuesto">
+      </div>
+     
+      <!-- Vuelos internacionales -->
+      <div class="col-12 col-md-6"></div>
+      <div class="form-check col-12 col-md-6">
+        <input class="form-check-input" type="checkbox" value="" id="vuelosInternacionales">
+        <label class="form-check-label" for="vuelosInternacionales">
+          Vuelos internacionales incluidos en el presupuesto
+        </label>
+      </div>
+
+      <!-- Text area para comentarios -->
+      <div class="mb-3">
+        <label for="comentarios" class="form-label">Dejanos tu comentario</label>
+        <textarea class="form-control" id="comentarios" rows="3"></textarea>
+      </div>
+
+     <!-- Botón enviar -->
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
   </main>
 
 
