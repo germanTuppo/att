@@ -70,6 +70,20 @@
                 <li class="nav-item">
                   <a class="nav-link menu__link" href="./pages/contacto.html">Contacto</a>
                 </li>
+
+                <!-- Selección de idioma -->
+                <li class="nav-item dropdown">
+                  <a id="selected-flag" class="nav-link menu__link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <!-- aca va a cambiar la bandera dependiendo el idioma elegido -->
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('es')" href="#"><img class="flag" src="media/flags/espana.png" alt="Bandera España"></a></li>
+                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('pt')" href="#"><img class="flag" src="media/flags/brasil.png" alt="Bandera Brasil"></a></li>
+                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('en')" href="#"><img class="flag" src="media/flags/reino-unido.png" alt="Bandera Reino Unido"></a></li>
+                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('it')" href="#"><img class="flag" src="media/flags/italia.png" alt="Bandera Italia"></a></li>
+                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('fr')" href="#"><img class="flag" src="media/flags/francia.png" alt="Bandera Francia"></a></li>
+                  </ul>
+                </li>
               </ul>
             </div>      
         </nav>

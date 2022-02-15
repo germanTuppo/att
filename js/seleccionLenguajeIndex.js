@@ -5,10 +5,6 @@ if (JSON.parse(localStorage.getItem("lang"))==undefined){
     localStorage.setItem("lang", JSON.stringify(lang));
 }
 
-/* document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/espana.png" alt="">'; */
-
-
-
 /****************************************************************************************
  * 
  * 
@@ -29,23 +25,22 @@ function FiltrarIdioma(cod){
             document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/espana.png" alt="">';
         break;
         case 'pt':
-        document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/brasil.png" alt="">';
+            document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/brasil.png" alt="">';
         break;
         case 'en':
-        document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/reino-unido.png" alt="">';
+            document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/reino-unido.png" alt="">';
         break;
         case 'it':
-        document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/italia.png" alt="">';
+            document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/italia.png" alt="">';
         break;
         case 'fr':
-        document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/francia.png" alt="">';
+            document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/francia.png" alt="">';
         break;
-      }
-     
+    }
 
 
 /* ESTO YA ES MEDIO RANDOM PERO ESTOY APRENDIENDO MAS JAVASCRIPT QUE NUNCA; LO TENIA QUE HABER HECHO ANTES */
-      switch (lang[0]) {
+    switch (lang[0]) {
         case 'es':
             document.getElementById('conarg').innerHTML='Conociendo Argentina';
             document.getElementById('conarg-text').innerHTML='Dentro de cada una de las provincias que conforman la Argentina existen distintos atractivos, destinos y tesoros imposibles de imaginar. Podras encontrar variedad de ciudades y geografías propias que seguramente lograrán incentivarnos para comenzar un viaje. Paisajes con sierras, montañas, quebradas, ríos, lagos, lagunas, campo y mar esperan a quien se anime a buscarlos. Ciudades grandes, chicas, parecidas y tan distintas a la vez, se esconden a lo largo del mapa para ser descubiertas por quién las visite. Cada provincia tiene una historia que te está esperando, tenés que encontrar la tuya.';
@@ -111,23 +106,12 @@ function FiltrarIdioma(cod){
             document.getElementById('paq-bariloche-text').innerHTML="Bariloche est la capitale des lacs du sud et fait partie de l'important circuit touristique des Sept Lacs. La ville a un flux touristique important toute l'année. Il est situé au bord du lac Nahuel Huapi, propose de nombreuses offres gastronomiques et est célèbre pour ses chocolats. Les principales activités sont les sports d'hiver, la pêche, le camping en pleine forêt, les excursions en bateau, l'équitation, entre autres. Bariloche est la deuxième destination touristique la plus populaire auprès des visiteurs. Le parc national de Los Arrayanes est un incontournable de la région, qui protège l'une des rares forêts de myrte au monde.";
             document.getElementById('paq-cataratas-text').innerHTML="Les chutes d'Iguazu sont l'une des sept merveilles du monde, elles sont composées de 275 cascades qui tombent des hauteurs les plus diverses. Du bas, on atteint la base des chutes, où la force de l'eau se transforme en rosée ou en vapeur qui mouille les participants. Elles sont situées au nord-est, une zone de jungle subtropicale, ce sont les cascades les plus connues de toute la région et leur exploitation touristique a un bon développement des infrastructures et des promenades très diverses. C'est une zone du parc national d'Iguazú, où la flore et la faune d'origine sont préservées. Son saut le plus impressionnant est ce qu'on appelle la gorge du diable.";
         break;
-      }
-      
+    }
+}//Fin funcion "filtrar idioma".
 
 
-}
-
-
-
-
-
-
-
-
-/*VER SI PUEDE ESTAR EN OTRO LADO*/
-
-lang=JSON.parse(localStorage.getItem("lang"));//levanto la información del lenguaje guardado en LocalStorage
-
+//levanto la información del lenguaje guardado en LocalStorage
+lang=JSON.parse(localStorage.getItem("lang"));
 
 var itinerario = [];
 function FiltrarItinerario(cod){
@@ -136,12 +120,6 @@ function FiltrarItinerario(cod){
     itinerario[1]=lang[0];
     localStorage.setItem("itinerario", JSON.stringify(itinerario));
 }
-
-
-
-
-
-
 
 
 /****************************************************************************************
@@ -157,19 +135,18 @@ switch (lang[0]) {
         document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/espana.png" alt="">';
     break;
     case 'pt':
-    document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/brasil.png" alt="">';
+        document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/brasil.png" alt="">';
     break;
     case 'en':
-    document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/reino-unido.png" alt="">';
+        document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/reino-unido.png" alt="">';
     break;
     case 'it':
-    document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/italia.png" alt="">';
+        document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/italia.png" alt="">';
     break;
     case 'fr':
-    document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/francia.png" alt="">';
+        document.getElementById('selected-flag').innerHTML='<img class="flag" src="media/flags/francia.png" alt="">';
     break;
-  }
-
+}
 
 
 /* ESTO YA ES MEDIO RANDOM PERO ESTOY APRENDIENDO MAS JAVASCRIPT QUE NUNCA; LO TENIA QUE HABER HECHO ANTES */
@@ -239,6 +216,4 @@ switch (lang[0]) {
         document.getElementById('paq-bariloche-text').innerHTML="Bariloche est la capitale des lacs du sud et fait partie de l'important circuit touristique des Sept Lacs. La ville a un flux touristique important toute l'année. Il est situé au bord du lac Nahuel Huapi, propose de nombreuses offres gastronomiques et est célèbre pour ses chocolats. Les principales activités sont les sports d'hiver, la pêche, le camping en pleine forêt, les excursions en bateau, l'équitation, entre autres. Bariloche est la deuxième destination touristique la plus populaire auprès des visiteurs. Le parc national de Los Arrayanes est un incontournable de la région, qui protège l'une des rares forêts de myrte au monde.";
         document.getElementById('paq-cataratas-text').innerHTML="Les chutes d'Iguazu sont l'une des sept merveilles du monde, elles sont composées de 275 cascades qui tombent des hauteurs les plus diverses. Du bas, on atteint la base des chutes, où la force de l'eau se transforme en rosée ou en vapeur qui mouille les participants. Elles sont situées au nord-est, une zone de jungle subtropicale, ce sont les cascades les plus connues de toute la région et leur exploitation touristique a un bon développement des infrastructures et des promenades très diverses. C'est une zone du parc national d'Iguazú, où la flore et la faune d'origine sont préservées. Son saut le plus impressionnant est ce qu'on appelle la gorge du diable.";
     break;
-  }
-
-
+}

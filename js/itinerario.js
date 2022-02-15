@@ -2,8 +2,6 @@ var itinerarios= [];
 var dia= [];
 var seleccionar = [];
 
-
-
 //levantar con ajax itinerarios mas dias
 
 $.ajax({
@@ -114,4 +112,3 @@ $.ajax({
     $('#mostarItems').html(imprimir);
   
   }  
-
