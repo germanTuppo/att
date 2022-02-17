@@ -101,40 +101,40 @@
 
     <div class="circular">
       <img src="../media/destinos/dia1bsas.jpg" alt="Buenos Aires">
-      <a class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">BUENOS AIRES</a>
+      <a onclick="generarModal(1)" class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">BUENOS AIRES</a>
     </div>
 
     <div class="circular">
       <img src="../media/destinos/iguazu1.jpg" alt="Iguazú">
-      <a class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">IGUAZÚ</a>
+      <a onclick="generarModal(2)" class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">IGUAZÚ</a>
     </div>
     <div class="circular">
       <img src="../media/destinos/mendoza1.jpg" alt="Mendoza">
-      <a class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">MENDOZA</a>
+      <a onclick="generarModal(3)" class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">MENDOZA</a>
     </div>
     <div class="circular">
       <img src="../media/destinos/bariloche1.jpg" alt="Bariloche">
-      <a class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">BARILOCHE</a>
+      <a onclick="generarModal(4)" class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">BARILOCHE</a>
     </div>
     <div class="circular">
       <img src="../media/destinos/syj1.jpg" alt="Salta y Jujuy">
-      <a class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">NORTE</a>
+      <a onclick="generarModal(5)" class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">NORTE</a>
     </div>
     <div class="circular">
       <img src="../media/destinos/pmy1.jpg" alt="Puerto Madryn">
-      <a class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">PUERTO MADRYN</a>
+      <a onclick="generarModal(6)" class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">PUERTO MADRYN</a>
     </div>
     <div class="circular">
       <img src="../media/destinos/calafate1.jpg" alt="Calafate">
-      <a class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">CALAFATE</a>
+      <a onclick="generarModal(7)" class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">CALAFATE</a>
     </div>
     <div class="circular">
       <img src="../media/destinos/ush1.jpg" alt="Ushuaia">
-      <a class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">USHUAIA</a>
+      <a onclick="generarModal(8)" class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">USHUAIA</a>
     </div>
     <div class="circular">
       <img src="../media/destinos/chalten.jpg" alt="El Chalten">
-      <a class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">BUENOS AIRES</a>
+      <a onclick="generarModal(9)" class="link-excursiones" data-bs-toggle="modal" data-bs-target="#modal_excursiones">EL CHALTEN</a>
     </div>
 </main>
 
@@ -177,11 +177,15 @@
 
 
 <!-- MODALS EXCURSIONES -->
+<div class="modal fade" id="modal_excursiones" tabindex="-1" aria-labelledby="#modal_excursionesLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl ">
+    <div id="generadorModal" class="modal-content">
 
+    </div>
+  </div>
 
-
-
-
+<!-- Jquery cdn google-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <!-- Botstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -195,6 +199,7 @@
 
 <!-- Enlaces js propios-->
 <script src="../js/seleccionLenguajePaginas.js"></script>
+<script src="../js/excursiones.js"></script>
 
 </body>
 </html>

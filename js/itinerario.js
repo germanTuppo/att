@@ -29,7 +29,7 @@ $.ajax({
 
 
   function MostrarItems(cod, lang){
- 
+
     let imprimir ="";
 
     /* Titulo */
