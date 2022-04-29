@@ -12,15 +12,23 @@ body {
   width: 100%;
   background-color: #fafffd; }
 
-.margen {
-  margin-top: 115px; }
-
 .link_banner {
   text-decoration: none; }
 
+/* Cards */
+.card--size {
+  min-height: 450px; }
+
+ul {
+  list-style: none; }
+
+.container-fluid {
+  margin: 0;
+  padding: 0; }
+
 .menu__logo {
-  height: auto;
-  width: 100px; }
+  height: 8vh;
+  padding: 5px; }
 
 .menu--margin {
   margin-left: 50px; }
@@ -35,6 +43,20 @@ body {
 .opacity {
   background-color: #c5cbd3;
   opacity: 0.9; }
+
+header {
+  min-height: 10vh; }
+
+nav {
+  min-height: 10vh; }
+
+.carrousel-index {
+  height: 90vh; }
+
+.carrousel-index img {
+  object-fit: cover;
+  width: 100%;
+  height: 90vh; }
 
 /* Textos */
 .infoArgentina__titulo--fuente {
@@ -191,7 +213,7 @@ body {
   color: aliceblue;
   z-index: 999; }
   .link-excursiones:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
     transform: translate(-50%, -50%);
     color: bisque;
     cursor: pointer; }
@@ -217,25 +239,22 @@ body {
 
 /* footer */
 .footer-style {
+  color: white;
+  margin-top: 200px;
   padding-top: 50px;
-  background-color: #2C3E50; }
+  background-color: #0947cd; }
 
-footer {
-  color: white; }
-  footer h3 {
-    margin-bottom: 30px;
-    font-weight: 800; }
-  footer .footer-above {
-    padding-top: 50px;
-    background-color: #2C3E50; }
-  footer .footer-col {
-    margin-bottom: 50px; }
+footer h3 {
+  margin-bottom: 30px;
+  font-weight: 800; }
+
+footer .footer-col {
+  margin-bottom: 50px; }
+
+.logos-redes {
+  width: 60px; }
 
 .form {
   padding: 10px; }
   .form input {
     margin-bottom: 20px; }
-
-/* Cards */
-.card--size {
-  min-height: 450px; }

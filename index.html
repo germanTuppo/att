@@ -32,11 +32,10 @@
 
   <!-- MENU -->
   <header>
-      <div class="container-fluid p-0">
-        
+    <div class="container-fluid p-0">       
       <nav class="navbar navbar-expand-lg navbar-light fixed-top opacity">
-          <img class="menu__logo" src="./media/logo.png" alt="logo">
-          <h1 class="text center menu__titulo">Argentina Travel and Tours</h1>
+          <img class="menu__logo" src="./media/logos/logo/logo_small.png" alt="logo">
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -88,13 +87,13 @@
 
               </ul>
             </div>      
-        </nav>
-      </div>
+      </nav>
+    </div>
   </header>
 
 <!-- CAROUSEL INDEX -->
-  <section class="container-fluid p-0 margen">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <section class="container-fluid">
+      <div id="carouselExampleControls" class="carousel slide carrousel-index" data-bs-ride="carousel">
           <div class="carousel-inner col-xs-12 col-sm-6 col-md-9 col-lg-9">
             <div class="carousel-item active">
               <img src="./media/buenos-aires-1.jpg" class="img-fluid" alt="Av 9 de julio">
@@ -136,67 +135,62 @@
         <h2 id="paq-bsas" class="text-center  mt-4"></h2>    
         <img  src="./media/destinos/dia3bsas.jpg"  class="col-12" alt="Buenos Aires">
         <p id="paq-bsas-text" class="text-center"></p> 
-        <a class="d-block badge bg-primary text-wrap text-center" onclick="FiltrarItinerario(1)" href="pages/itinerario.html">Quiero ver mas</a>
+        <a class="d-block badge bg-primary text-wrap text-center bottom" onclick="FiltrarItinerario(1)" href="pages/itinerario.html">Quiero ver mas</a>
       </div>
 
       <div class="col-12 col-md-6 col-xl-3">
         <h2 id="paq-mendoza" class="text-center  mt-4"></h2>       
         <img  src="./media/destinos/mendoza1.jpg"  class="col-12" alt="Mendoza"> 
         <p id="paq-mendoza-text" class="text-center"></p>        
-        <a class="d-block badge bg-primary text-wrap text-center" onclick="FiltrarItinerario(6)" href="pages/itinerario.html">Quiero ver mas</a>
+        <a class="d-block badge bg-primary text-wrap text-center bottom" onclick="FiltrarItinerario(6)" href="pages/itinerario.html">Quiero ver mas</a>
       </div>
 
       <div class="col-12 col-md-6 col-xl-3"> 
         <h2 id="paq-bariloche" class="text-center  mt-4"></h2>      
         <img  src="./media/destinos/bariloche3.jpg"  class="col-12" alt="Bariloche">
         <p id="paq-bariloche-text" class="text-center"></p>              
-        <a class="d-block badge bg-primary text-wrap text-center" onclick="FiltrarItinerario(7)" href="pages/itinerario.html">Quiero ver mas</a>
+        <a class="d-block badge bg-primary text-wrap text-center bottom" onclick="FiltrarItinerario(7)" href="pages/itinerario.html">Quiero ver mas</a>
       </div>
 
       <div class="col-12 col-md-6 col-xl-3">
-        <h2 id="paq-cataratas" class="text-center  mt-4"></h2>    
-        <img src="./media/brazil-1128568_1920.jpg"  class="col-12" alt="Cataratas del Iguazú">
-        <p id="paq-cataratas-text" class="text-center"></p>
-        <a class="d-block badge bg-primary text-wrap text-center" onclick="FiltrarItinerario(2)" href="pages/itinerario.html">Quiero ver mas</a>            
+        <a onclick="FiltrarItinerario(2)" href="pages/itinerario.html">
+          <h2 id="paq-cataratas" class="text-center  mt-4"></h2>    
+          <img src="./media/brazil-1128568_1920.jpg"  class="col-12" alt="Cataratas del Iguazú">
+          <p id="paq-cataratas-text" class="text-center"></p>
+        </a>            
       </div>
     </div>
   </section>
 
 
-  <footer class="text-center footer-style margen">
-      <div class="container">
+  <footer class="container-fluid text-center footer-style">
           <div class="row">
-              <div class="col-md-4 footer-col">
+              <div class="col-12 col-md-6">
                   <h3>Dirección</h3>
                   <p>
                       Marcelo T de Alvear 925 <br />
                       argentinatravel@gmail.com
                   </p>
               </div>
-              <div class="col-md-4 footer-col">
+              <div class="col-12 col-md-6">
                   <h3>Mis redes</h3>
-                  <ul class="list-inline">
+                  <ul class="d-flex justify-content-center">
                       <li>
-                          <a  target="_blank" href="https://www.facebook.com/" class="btn-social btn-outline">Facebook<i class="fa fa-fw fa-facebook"></i></a>
+                          <a  target="_blank" href="https://www.facebook.com/"><img class="logos-redes" src="./media/logos/facebook.png" alt="logo"></a>
                       </li>
                       <li>
-                          <a  target="_blank" href="https://www.instagram.com/" class="btn-social btn-outline">Instagram<i class="fa fa-fw fa-instagram"></i></a>
+                          <a  target="_blank" href="https://www.instagram.com/"><img class="logos-redes" src="./media/logos/instagram.png" alt="logo"></a>
                       </li>
                       <li>
-                          <a  target="_blank" href="https://www.youtube.com/" class="btn-social btn-outline">Youtube<i class="fa fa-fw fa-youtube"></i></a>
+                          <a  target="_blank" href=""><img class="logos-redes" src="./media/logos/skype.png" alt="logo"></a>
                       </li>
                       <li>
-                          <a  target="_blank" href="https://www.linkedin.com/" class="btn-social btn-outline">linkedin<i class="fa fa-fw fa-linkedin"></i></a>
+                          <a  target="_blank" href="https://www.linkedin.com/"><img class="logos-redes" src="./media/logos/whatsapp.png" alt="logo"></a>
                       </li>
                       
                   </ul>
               </div>
-              <div class="col-md-4 footer-col">
-                  <h3>SUSCRIPCION PARA NOVEDADES</h3>
-                  <p>TERMINOS Y CONDICIONES</p>
-              </div>
           </div>
-      </div>
   </footer>
 
 

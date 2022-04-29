@@ -1,5 +1,4 @@
 /* Estlos generales */
-
 * {
    margin: 0%;
    padding: 0%;
@@ -14,9 +13,21 @@ body {
    width: 100%;
    background-color: #fafffd;
 }
-.margen {
-   margin-top: 115px;
-}
+
 .link_banner {
    text-decoration: none;
+}
+
+/* Cards */
+.card--size{
+   min-height: 450px;
+}
+
+ul{
+   list-style: none;
+}
+
+.container-fluid{
+   margin: 0;
+   padding: 0;
 }
