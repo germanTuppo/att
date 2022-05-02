@@ -1,211 +1,494 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="description" content="Argentina Travel and Tours es un emprendimiento creado por amantes de los viajes con el objetivo de contagiar nuestra pasión a todos los viajantes del mundo que quieran descubrir nuevos y apasionantes lugares. Nos encontramos en la Ciudad Autonoma de Buenos Aires y diseñamos tours personalizados por argentina y algunos paises de Latinoamérica">
-    <meta name="keywords" content="VIAJES, TOURS, TURISMO, ARGENTINA, CATARATAS, BARILOCHE, PATAGONIA, PAQUETES, BUENOS AIRES, CALAFATE, GLACIAR, BALLENAS, PINGUINOS, USHUAIA, VINO">
-    
+    <meta
+      name="description"
+      content="Argentina Travel and Tours es un emprendimiento creado por amantes de los viajes con el objetivo de contagiar nuestra pasión a todos los viajantes del mundo que quieran descubrir nuevos y apasionantes lugares. Nos encontramos en la Ciudad Autonoma de Buenos Aires y diseñamos tours personalizados por argentina y algunos paises de Latinoamérica"
+    />
+    <meta
+      name="keywords"
+      content="VIAJES, TOURS, TURISMO, ARGENTINA, CATARATAS, BARILOCHE, PATAGONIA, PAQUETES, BUENOS AIRES, CALAFATE, GLACIAR, BALLENAS, PINGUINOS, USHUAIA, VINO"
+    />
+
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
     <!-- AOS CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300;1,400&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>Argentina Travel and Tours</title>
-</head>
-<body>
+  </head>
 
-  <!-- MENU -->
-  <header>
-    <div class="container-fluid p-0">       
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top opacity">
-          <img class="menu__logo" src="./media/logos/logo/logo_small.png" alt="logo">
+  <body>
+    <!-- MENU -->
+    <header>
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top opacity">
+          <img
+            class="menu__logo"
+            src="./media/logos/logo/logo_small.png"
+            alt="logo"
+          />
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-              <ul class="navbar-nav justify-content-end menu--margin">
-                <li class="nav-item">
-                  <a class="nav-link menu__link active" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link menu__link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Destinos
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item menu__link" href="#">Buenos Aires</a></li>
-                    <li><a class="dropdown-item menu__link" href="#">Iguazu</a></li>
-                    <li><a class="dropdown-item menu__link" href="#">Calafate</a></li>
-                    <li><a class="dropdown-item menu__link" href="#">Ushuaia</a></li>
-                    <li><a class="dropdown-item menu__link" href="#">Mendoza</a></li>
-                    <li><a class="dropdown-item menu__link" href="#">Bariloche</a></li>
-                    <li><a class="dropdown-item menu__link" href="#">Puerto Madryn</a></li>
-                    <li><a class="dropdown-item menu__link" href="#">Norte</a></li>
-                    <li><a class="dropdown-item menu__link" href="pages/arma.html">Arma tu viaje</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menu__link" href="./pages/paquetes.html">Paquetes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menu__link" href="./pages/excursiones.html">Excursiones</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link menu__link" href="./pages/contacto.html">Contacto</a>
-                </li>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav justify-content-end menu--margin">
+              <li class="nav-item">
+                <a class="nav-link menu__link active" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link menu__link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Destinos
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item menu__link" href="#"
+                      >Buenos Aires</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item menu__link" href="#">Iguazu</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item menu__link" href="#">Calafate</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item menu__link" href="#">Ushuaia</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item menu__link" href="#">Mendoza</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item menu__link" href="#">Bariloche</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item menu__link" href="#"
+                      >Puerto Madryn</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item menu__link" href="#">Norte</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item menu__link" href="pages/arma.html"
+                      >Arma tu viaje</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu__link" href="./pages/paquetes.html"
+                  >Paquetes</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu__link" href="./pages/excursiones.html"
+                  >Excursiones</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu__link" href="./pages/contacto.html"
+                  >Contacto</a
+                >
+              </li>
 
-                <!-- Selección de idioma -->
-                <li class="nav-item dropdown">
-                  <a id="selected-flag" class="nav-link menu__link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <!-- aca va a cambiar la bandera dependiendo el idioma elegido -->
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('es')" href="#"><img class="flag" src="media/flags/espana.png" alt="Bandera España"></a></li>
-                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('pt')" href="#"><img class="flag" src="media/flags/brasil.png" alt="Bandera Brasil"></a></li>
-                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('en')" href="#"><img class="flag" src="media/flags/reino-unido.png" alt="Bandera Reino Unido"></a></li>
-                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('it')" href="#"><img class="flag" src="media/flags/italia.png" alt="Bandera Italia"></a></li>
-                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('fr')" href="#"><img class="flag" src="media/flags/francia.png" alt="Bandera Francia"></a></li>
-                  </ul>
-                </li>
-
-              </ul>
-            </div>      
-      </nav>
-    </div>
-  </header>
-
-<!-- CAROUSEL INDEX -->
-  <section class="container-fluid">
-      <div id="carouselExampleControls" class="carousel slide carrousel-index" data-bs-ride="carousel">
-          <div class="carousel-inner col-xs-12 col-sm-6 col-md-9 col-lg-9">
-            <div class="carousel-item active">
-              <img src="./media/buenos-aires-1.jpg" class="img-fluid" alt="Av 9 de julio">
-            </div>
-            <div class="carousel-item col-xs-12 col-sm-6 col-md-9 col-lg-9">
-              <img src="./media/buenos-aires-2.jpg" class="img-fluid" alt="Congreso">
-            </div>
-            <div class="carousel-item col-xs-12 col-sm-6 col-md-9 col-lg-9">
-              <img src="./media/buenos-aires-3.jpg" class="img-fluid" alt="Puerto Madero">
-            </div>
+              <!-- Selección de idioma -->
+              <li class="nav-item dropdown">
+                <a
+                  id="selected-flag"
+                  class="nav-link menu__link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <!-- aca va a cambiar la bandera dependiendo el idioma elegido -->
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item menu__link"
+                      onclick="FiltrarIdioma('es')"
+                      href="#"
+                      ><img
+                        class="flag"
+                        src="media/flags/espana.png"
+                        alt="Bandera España"
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item menu__link"
+                      onclick="FiltrarIdioma('pt')"
+                      href="#"
+                      ><img
+                        class="flag"
+                        src="media/flags/brasil.png"
+                        alt="Bandera Brasil"
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item menu__link"
+                      onclick="FiltrarIdioma('en')"
+                      href="#"
+                      ><img
+                        class="flag"
+                        src="media/flags/reino-unido.png"
+                        alt="Bandera Reino Unido"
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item menu__link"
+                      onclick="FiltrarIdioma('it')"
+                      href="#"
+                      ><img
+                        class="flag"
+                        src="media/flags/italia.png"
+                        alt="Bandera Italia"
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item menu__link"
+                      onclick="FiltrarIdioma('fr')"
+                      href="#"
+                      ><img
+                        class="flag"
+                        src="media/flags/francia.png"
+                        alt="Bandera Francia"
+                    /></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- CAROUSEL INDEX -->
+    <section class="container-fluid mb-5">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide carrousel-index"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner col-xs-12 col-sm-6 col-md-9 col-lg-9">
+          <div class="carousel-item active">
+            <img
+              src="./media/buenos-aires-1.jpg"
+              class="img-fluid"
+              alt="Av 9 de julio"
+            />
+          </div>
+          <div class="carousel-item col-xs-12 col-sm-6 col-md-9 col-lg-9">
+            <img
+              src="./media/buenos-aires-2.jpg"
+              class="img-fluid"
+              alt="Congreso"
+            />
+          </div>
+          <div class="carousel-item col-xs-12 col-sm-6 col-md-9 col-lg-9">
+            <img
+              src="./media/buenos-aires-3.jpg"
+              class="img-fluid"
+              alt="Puerto Madero"
+            />
+          </div>
         </div>
-  </section>
-
-  <div class="container mt-5">
-    <section class="row infoArgentina">
-      <div class="col-12 text-center">
-        <h2 id="conarg" class="infoArgentina__titulo--fuente texto--size_6  align-content-center justify-content-center"></h2>
-        <p id="conarg-text" class="infoArgentina__texto--fuente texto--size_3  align-content-center justify-content-center"></p>
-      </div>     
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
-  </div>
 
-  <section class="banner margen">
-    <h2 id="paq" class="text-center banner__titulo"></h2>
-  </section>
-
-  <section class="container-fluid">
-    <div class="row">
-      <div class="col-12 col-md-6 col-xl-3">  
-        <h2 id="paq-bsas" class="text-center  mt-4"></h2>    
-        <img  src="./media/destinos/dia3bsas.jpg"  class="col-12" alt="Buenos Aires">
-        <p id="paq-bsas-text" class="text-center"></p> 
-        <a class="d-block badge bg-primary text-wrap text-center bottom" onclick="FiltrarItinerario(1)" href="pages/itinerario.html">Quiero ver mas</a>
+    <!-- OPINIONES DE NUESTROS CLIENTES -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide nuestros-clientes"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
       </div>
-
-      <div class="col-12 col-md-6 col-xl-3">
-        <h2 id="paq-mendoza" class="text-center  mt-4"></h2>       
-        <img  src="./media/destinos/mendoza1.jpg"  class="col-12" alt="Mendoza"> 
-        <p id="paq-mendoza-text" class="text-center"></p>        
-        <a class="d-block badge bg-primary text-wrap text-center bottom" onclick="FiltrarItinerario(6)" href="pages/itinerario.html">Quiero ver mas</a>
-      </div>
-
-      <div class="col-12 col-md-6 col-xl-3"> 
-        <h2 id="paq-bariloche" class="text-center  mt-4"></h2>      
-        <img  src="./media/destinos/bariloche3.jpg"  class="col-12" alt="Bariloche">
-        <p id="paq-bariloche-text" class="text-center"></p>              
-        <a class="d-block badge bg-primary text-wrap text-center bottom" onclick="FiltrarItinerario(7)" href="pages/itinerario.html">Quiero ver mas</a>
-      </div>
-
-      <div class="col-12 col-md-6 col-xl-3">
-        <a onclick="FiltrarItinerario(2)" href="pages/itinerario.html">
-          <h2 id="paq-cataratas" class="text-center  mt-4"></h2>    
-          <img src="./media/brazil-1128568_1920.jpg"  class="col-12" alt="Cataratas del Iguazú">
-          <p id="paq-cataratas-text" class="text-center"></p>
-        </a>            
-      </div>
-    </div>
-  </section>
-
-
-  <footer class="container-fluid text-center footer-style">
-          <div class="row">
-              <div class="col-12 col-md-6">
-                  <h3>Dirección</h3>
-                  <p>
-                      Marcelo T de Alvear 925 <br />
-                      argentinatravel@gmail.com
-                  </p>
-              </div>
-              <div class="col-12 col-md-6">
-                  <h3>Mis redes</h3>
-                  <ul class="d-flex justify-content-center">
-                      <li>
-                          <a  target="_blank" href="https://www.facebook.com/"><img class="logos-redes" src="./media/logos/facebook.png" alt="logo"></a>
-                      </li>
-                      <li>
-                          <a  target="_blank" href="https://www.instagram.com/"><img class="logos-redes" src="./media/logos/instagram.png" alt="logo"></a>
-                      </li>
-                      <li>
-                          <a  target="_blank" href=""><img class="logos-redes" src="./media/logos/skype.png" alt="logo"></a>
-                      </li>
-                      <li>
-                          <a  target="_blank" href="https://www.linkedin.com/"><img class="logos-redes" src="./media/logos/whatsapp.png" alt="logo"></a>
-                      </li>
-                      
-                  </ul>
-              </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="media/textura.jpg" class="d-block w-100" alt="textura" />
+          <div class="carousel-caption d-block fondo-texto">
+            <h4>Estuvimos averiguando para hacer una viaje a Argentina y recorrer varios puntos del país, ya que era nuestro deseo desde hace tiempo, estuvimos evaluando varias propuestas y nos terminamos de decidir por Argentina Travel and Tours, ellos estuvieron en cada detalle y nos asesoraron en cada etapa de nuestro viaje, salió todo a la perfección, recorrimos Buenos Aires, Iguazú, Calafate y Ushuaia, trabajan con operadores muy serios y responsables que nos explicaron todo y estuvieron atentos a nuestras solicitudes, en algún momento nos gustaría volver y recorrer otros destinos que nos quedaron pendientes, sin dudas los recomiendo y cuando volvamos contactaremos con ellos.</h4>
+            <h5>Emiliano y Sofía, México</h5>
           </div>
-  </footer>
+        </div>
+        <div class="carousel-item ">
+          <img src="media/textura.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-block fondo-texto">
+            <h4>Somos una pareja  de Colombia con una hija de 6 años, nos recomendaron viajar con ustedes y todo salió de maravilla, nos explicaron bien cuál iba a ser nuestro recorrido y nos reservaron hoteles muy buenos, en relación precio-calidad y ubicación, estuvimos dos semanas en varios puntos, Leandro fue nuestro asesor de viajes y salió todo mejor de lo que esperábamos, gracias.</h4>
+            <h5>Santiago y Antonella, Colombia</h5>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="media/textura.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-block fondo-texto">
+            <h4>Teníamos el viaje planificado a Argentina antes de la pandemia, y lo tuvimos que posponer, así que lo concretamos hace algunas semanas. Son una empresa muy seria ya que nos mantuvieron todo según habíamos reservado, incluso decidimos quedaron unos días más para recorrer la ruta del vino en Mendoza y ellos se encargaron de todo, nos cambiaron nuestro vuelo y salió todo espectacular, ya los recomendamos a nuestros amigos que viajan en unos meses.</h4>
+            <h5>Ignacio, España</h5>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
+    <!-- INFO ARGENTINA -->
+    <div class="container margen mb-5">
+      <section class="row infoArgentina">
+        <div class="col-12 text-center">
+          <h2
+            id="conarg"
+            class="infoArgentina__titulo--fuente texto--size_6 align-content-center justify-content-center"
+          ></h2>
+          <p
+            id="conarg-text"
+            class="infoArgentina__texto--fuente texto--size_3 align-content-center justify-content-center"
+          ></p>
+        </div>
+      </section>
+    </div>
 
-<!-- Botstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/30fc018de6.js" crossorigin="anonymous"></script>
+    <!-- Paquetes Sugeridos titulo-->
+    <section class="banner mt-5 mb-5">
+      <h2 id="paq" class="text-center banner__titulo"></h2>
+    </section>
 
-<!-- AOS JS -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Paquetes Sugeridos -->
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6 col-xl-3">
+          <a onclick="FiltrarItinerario(1)" href="pages/itinerario.html">
+            <h2 id="paq-bsas" class="text-center mt-4"></h2>
+            <img
+              src="./media/destinos/dia3bsas.jpg"
+              class="col-12"
+              alt="Buenos Aires"
+            />
+            <p id="paq-bsas-text" class="text-justify"></p>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-3">
+          <a onclick="FiltrarItinerario(6)" href="pages/itinerario.html">
+            <h2 id="paq-mendoza" class="text-center mt-4"></h2>
+            <img
+              src="./media/destinos/mendoza1.jpg"
+              class="col-12"
+              alt="Mendoza"
+            />
+            <p id="paq-mendoza-text" class="text-justify"></p>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-3">
+          <a onclick="FiltrarItinerario(7)" href="pages/itinerario.html">
+            <h2 id="paq-bariloche" class="text-center mt-4"></h2>
+            <img
+              src="./media/destinos/bariloche3.jpg"
+              class="col-12"
+              alt="Bariloche"
+            />
+            <p id="paq-bariloche-text" class="text-justify"></p>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-3">
+          <a onclick="FiltrarItinerario(2)" href="pages/itinerario.html">
+            <h2 id="paq-cataratas" class="text-center mt-4"></h2>
+            <img
+              src="./media/brazil-1128568_1920.jpg"
+              class="col-12"
+              alt="Cataratas del Iguazú"
+            />
+            <p id="paq-cataratas-text" class="text-justify"></p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid text-center footer-style">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h3>Dirección</h3>
+          <p>Marcelo T de Alvear 925</p>
+        </div>
+        <div class="col-12 col-md-6">
+          <h3>Mis redes</h3>
+          <ul class="d-flex justify-content-center">
+            <li>
+              <a target="_blank" href="https://www.facebook.com/"
+                ><img
+                  class="logos-redes"
+                  src="./media/logos/facebook.png"
+                  alt="logo"
+              /></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/argentinatravelandtours/"
+                ><img
+                  class="logos-redes"
+                  src="./media/logos/instagram.png"
+                  alt="logo"
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" href=""
+                ><img
+                  class="logos-redes"
+                  src="./media/logos/skype.png"
+                  alt="logo"
+              /></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=5491166809531"
+                ><img
+                  class="logos-redes"
+                  src="./media/logos/whatsapp.png"
+                  alt="logo"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Botstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/30fc018de6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS JS -->
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
-</script>
+</script> -->
 
-<!-- Enlaces js propios-->
-<script src="js/seleccionLenguajeIndex.js"></script>
-
-</body>
+    <!-- Enlaces js propios-->
+    <script src="js/seleccionLenguajeIndex.js"></script>
+  </body>
 </html>

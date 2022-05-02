@@ -8,9 +8,14 @@ a {
   text-decoration: none;
   color: black; }
 
+p {
+  text-decoration: none;
+  color: black; }
+
 body {
   width: 100%;
-  background-color: #fafffd; }
+  background-color: #fafffd;
+  overflow-x: hidden; }
 
 .link_banner {
   text-decoration: none; }
@@ -130,6 +135,11 @@ nav {
   font-weight: bold;
   font-size: 2rem; }
 
+.text-justify {
+  margin: 5px;
+  text-align: justify;
+  text-decoration: none; }
+
 .destinos {
   margin-top: 5rem; }
 
@@ -233,9 +243,31 @@ nav {
 .m-width {
   max-width: 50%; }
 
+.nuestros-clientes {
+  margin: 30px auto;
+  width: 70%;
+  height: 60vh; }
+
+.nuestros-clientes img {
+  border-radius: 20px;
+  width: 70%;
+  height: 60vh;
+  object-fit: cover; }
+
+.fondo-texto {
+  background-color: rgba(0, 0, 0, 0.305); }
+
 @media screen and (max-width: 768px) {
   .m-width {
-    max-width: 100%; } }
+    max-width: 100%; }
+  .nuestros-clientes {
+    margin: 30px auto;
+    width: 90%;
+    height: 600px; }
+  .nuestros-clientes img {
+    border-radius: 20px;
+    width: 90%;
+    height: 600px; } }
 
 /* footer */
 .footer-style {

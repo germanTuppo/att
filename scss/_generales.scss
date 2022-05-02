@@ -9,9 +9,15 @@ a {
    color: black;
 }
 
+p {
+   text-decoration: none;
+   color: black;
+}
+
 body {
    width: 100%;
    background-color: #fafffd;
+   overflow-x: hidden;
 }
 
 .link_banner {

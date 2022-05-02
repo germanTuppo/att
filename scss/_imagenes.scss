@@ -109,9 +109,35 @@
    max-width: 50%;
 }
 
+.nuestros-clientes{
+   margin: 30px auto;
+   width: 70%;
+   height: 60vh;
+}
+.nuestros-clientes img{
+   border-radius: 20px;
+   width: 70%;
+   height: 60vh;
+   object-fit: cover;
+}
+
+.fondo-texto{
+   background-color: rgba(0, 0, 0, 0.305); 
+}
+
+
 @media screen and (max-width:768px){
    .m-width{
       max-width: 100%;
    }
-   
+   .nuestros-clientes{
+      margin: 30px auto;
+      width: 90%;
+      height: 600px;
+   }
+   .nuestros-clientes img{
+      border-radius: 20px;
+      width: 90%;
+      height: 600px;
+   }
 }

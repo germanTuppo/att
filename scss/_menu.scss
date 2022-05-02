@@ -16,18 +16,17 @@
     background-color: #c5cbd3;
     opacity: 0.9;
 }
- header{
+header{
     min-height: 10vh;
- }
- nav{
+}
+nav{
     min-height: 10vh;
- }
-
- .carrousel-index{
-     height: 90vh;
- }
- .carrousel-index img{
-     object-fit: cover;
-     width: 100%;
-     height: 90vh;
- } 
+}
+.carrousel-index{
+    height: 90vh;
+}
+.carrousel-index img{
+    object-fit: cover;
+    width: 100%;
+    height: 90vh;
+} 
