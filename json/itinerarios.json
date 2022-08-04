@@ -163,7 +163,7 @@
         "codigo" : 21,
         "categoria": "",
         "dias": 13,
-        "destinos": "Buenos Aires / Puerto Madryn /Ushuaia / Bariloche",
+        "destinos": "Buenos Aires / Puerto Madryn / Ushuaia / Bariloche",
         "itinerario": [1, 2, 17, 18, 19, 37, 9, 10, 42, 27, 28, 29, 4]
 
     },
@@ -171,7 +171,7 @@
         "codigo" : 22,
         "categoria": "",
         "dias": 15,
-        "destinos": "Buenos Aires – Calafate – El Chalten – Ushuaia – Iguazu",
+        "destinos": "Buenos Aires / Calafate / El Chalten / Ushuaia / Iguazu",
         "itinerario": [1, 2, 13, 14, 15, 34, 35, 36, 12, 9, 10, 41, 6, 7, 4]
 
     },
@@ -179,7 +179,7 @@
         "codigo" : 23,
         "categoria": "",
         "dias": 15,
-        "destinos": "Buenos Aires – Puerto Madryn – Calafate – Ushuaia – Iguazu",
+        "destinos": "Buenos Aires / Puerto Madryn / Calafate / Ushuaia / Iguazu",
         "itinerario": [1, 2, 17, 18, 19, 20, 14, 15, 12, 9, 10, 41, 6, 7, 4]
 
     },

@@ -8,14 +8,9 @@ a {
   text-decoration: none;
   color: black; }
 
-p {
-  text-decoration: none;
-  color: black; }
-
 body {
   width: 100%;
-  background-color: #fafffd;
-  overflow-x: hidden; }
+  background-color: #fafffd; }
 
 .link_banner {
   text-decoration: none; }
@@ -31,6 +26,13 @@ ul {
   margin: 0;
   padding: 0; }
 
+.modal-header {
+  background-color: rgba(91, 119, 230, 0.969); }
+
+.modal-title {
+  color: #fafffd;
+  font-size: 1.5rem; }
+
 .menu__logo {
   height: 8vh;
   padding: 5px; }
@@ -39,7 +41,11 @@ ul {
   margin-left: 50px; }
 
 .menu__titulo {
+  margin-left: 20px;
   font-family: 'Lobster', cursive; }
+  @media screen and (max-width: 1220px) {
+    .menu__titulo {
+      display: none; } }
 
 .menu__link {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -135,10 +141,44 @@ nav {
   font-weight: bold;
   font-size: 2rem; }
 
-.text-justify {
-  margin: 5px;
-  text-align: justify;
-  text-decoration: none; }
+.vinietas {
+  list-style-type: circle; }
+
+.vinietas li {
+  color: #040435; }
+
+.texto-modal {
+  margin-top: -20px; }
+
+/* .opiniones{
+   width: 100%;
+   height: 400px;
+} */
+.img-opiniones {
+  filter: grayscale(90%);
+  object-fit: cover; }
+  @media screen and (max-width: 1600px) {
+    .img-opiniones {
+      height: 600px; } }
+  @media screen and (max-width: 1200px) {
+    .img-opiniones {
+      height: 600px; } }
+  @media screen and (max-width: 800px) {
+    .img-opiniones {
+      height: 800px; } }
+
+.texto-opiniones {
+  font-size: calc(1.5rem);
+  font-weight: bold;
+  color: #01040f; }
+  @media screen and (max-width: 1200px) {
+    .texto-opiniones {
+      font-size: calc(12px + 1vw); } }
+
+.titulo-opiniones {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #01040f; }
 
 .destinos {
   margin-top: 5rem; }
@@ -243,31 +283,15 @@ nav {
 .m-width {
   max-width: 50%; }
 
-.nuestros-clientes {
-  margin: 30px auto;
-  width: 70%;
-  height: 60vh; }
-
-.nuestros-clientes img {
-  border-radius: 20px;
-  width: 70%;
-  height: 60vh;
+.object-fit {
   object-fit: cover; }
 
-.fondo-texto {
-  background-color: rgba(0, 0, 0, 0.305); }
+.centrarImg {
+  margin: 0 auto; }
 
 @media screen and (max-width: 768px) {
   .m-width {
-    max-width: 100%; }
-  .nuestros-clientes {
-    margin: 30px auto;
-    width: 90%;
-    height: 600px; }
-  .nuestros-clientes img {
-    border-radius: 20px;
-    width: 90%;
-    height: 600px; } }
+    max-width: 100%; } }
 
 /* footer */
 .footer-style {

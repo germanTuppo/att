@@ -6,7 +6,12 @@
     margin-left: 50px;
 }
 .menu__titulo{
+    margin-left: 20px;
     font-family: 'Lobster', cursive;
+
+    @media screen and (max-width: 1220px) {
+        display: none;        
+    }
 }
 .menu__link{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -16,17 +21,18 @@
     background-color: #c5cbd3;
     opacity: 0.9;
 }
-header{
+ header{
     min-height: 10vh;
-}
-nav{
+ }
+ nav{
     min-height: 10vh;
-}
-.carrousel-index{
-    height: 90vh;
-}
-.carrousel-index img{
-    object-fit: cover;
-    width: 100%;
-    height: 90vh;
-} 
+ }
+
+ .carrousel-index{
+     height: 90vh;
+ }
+ .carrousel-index img{
+     object-fit: cover;
+     width: 100%;
+     height: 90vh;
+ } 

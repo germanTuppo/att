@@ -9,15 +9,9 @@ a {
    color: black;
 }
 
-p {
-   text-decoration: none;
-   color: black;
-}
-
 body {
    width: 100%;
    background-color: #fafffd;
-   overflow-x: hidden;
 }
 
 .link_banner {
@@ -36,4 +30,12 @@ ul{
 .container-fluid{
    margin: 0;
    padding: 0;
+}
+
+.modal-header{
+   background-color: rgba(91, 119, 230, 0.969);
+}
+.modal-title{
+   color: #fafffd;
+   font-size: 1.5rem;
 }

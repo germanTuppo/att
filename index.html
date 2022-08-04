@@ -1,494 +1,1557 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta
-      name="description"
-      content="Argentina Travel and Tours es un emprendimiento creado por amantes de los viajes con el objetivo de contagiar nuestra pasión a todos los viajantes del mundo que quieran descubrir nuevos y apasionantes lugares. Nos encontramos en la Ciudad Autonoma de Buenos Aires y diseñamos tours personalizados por argentina y algunos paises de Latinoamérica"
-    />
-    <meta
-      name="keywords"
-      content="VIAJES, TOURS, TURISMO, ARGENTINA, CATARATAS, BARILOCHE, PATAGONIA, PAQUETES, BUENOS AIRES, CALAFATE, GLACIAR, BALLENAS, PINGUINOS, USHUAIA, VINO"
-    />
-
+    <meta name="description" content="Argentina Travel and Tours es un emprendimiento creado por amantes de los viajes con el objetivo de contagiar nuestra pasión a todos los viajantes del mundo que quieran descubrir nuevos y apasionantes lugares. Nos encontramos en la Ciudad Autonoma de Buenos Aires y diseñamos tours personalizados por argentina y algunos paises de Latinoamérica">
+    <meta name="keywords" content="VIAJES, TOURS, TURISMO, ARGENTINA, CATARATAS, BARILOCHE, PATAGONIA, PAQUETES, BUENOS AIRES, CALAFATE, GLACIAR, BALLENAS, PINGUINOS, USHUAIA, VINO">
+    
     <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- AOS CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300;1,400&display=swap"
-      rel="stylesheet"
-    />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300;1,400&display=swap" rel="stylesheet">
+    
     <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css">
 
+    <link rel="shortcut icon" href="./media/logos/logo_3/logo_small_icon_only-removebg-preview.png" type="image/x-icon">
     <title>Argentina Travel and Tours</title>
-  </head>
+</head>
+<body>
 
-  <body>
-    <!-- MENU -->
-    <header>
-      <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top opacity">
-          <img
-            class="menu__logo"
-            src="./media/logos/logo/logo_small.png"
-            alt="logo"
-          />
+  <!-- MENU -->
+  <header>
+    <div class="container-fluid p-0">       
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top opacity">
+          <img class="menu__logo" src="./media/logos/logo/logo_small.png" alt="logo">
+          <h1 class="menu__titulo">Argentina Travel and Tours</h1>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav justify-content-end menu--margin">
+                <li class="nav-item">
+                  <a class="nav-link menu__link active" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link menu__link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Destinos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item menu__link" href="./pages/destinos/bsas.html">Buenos Aires</a></li>
+                    <li><a class="dropdown-item menu__link" href="./pages/destinos/iguazu.html">Iguazu</a></li>
+                    <li><a class="dropdown-item menu__link" href="./pages/destinos/calafate.html">Calafate</a></li>
+                    <li><a class="dropdown-item menu__link" href="./pages/destinos/ushuaia.html">Ushuaia</a></li>
+                    <li><a class="dropdown-item menu__link" href="./pages/destinos/mendoza.html">Mendoza</a></li>
+                    <li><a class="dropdown-item menu__link" href="./pages/destinos/bariloche.html">Bariloche</a></li>
+                    <li><a class="dropdown-item menu__link" href="./pages/destinos/madryn.html">Puerto Madryn</a></li>
+                    <li><a class="dropdown-item menu__link" href="./pages/destinos/norte.html">Norte</a></li>
+                    <li><a class="dropdown-item menu__link" href="./pages/arma.html">Arma tu viaje</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link menu__link" href="./pages/paquetes.html">Paquetes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link menu__link" href="./pages/excursiones.html">Excursiones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link menu__link" href="./pages/contacto.html">Contacto</a>
+                </li>
+
+                <!-- Selección de idioma -->
+                <li class="nav-item dropdown">
+                  <a id="selected-flag" class="nav-link menu__link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <!-- aca va a cambiar la bandera dependiendo el idioma elegido -->
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('es')" href="#"><img class="flag" src="media/flags/espana.png" alt="Bandera España"></a></li>
+                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('pt')" href="#"><img class="flag" src="media/flags/brasil.png" alt="Bandera Brasil"></a></li>
+                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('en')" href="#"><img class="flag" src="media/flags/reino-unido.png" alt="Bandera Reino Unido"></a></li>
+                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('it')" href="#"><img class="flag" src="media/flags/italia.png" alt="Bandera Italia"></a></li>
+                    <li><a class="dropdown-item menu__link" onclick="FiltrarIdioma('fr')" href="#"><img class="flag" src="media/flags/francia.png" alt="Bandera Francia"></a></li>
+                  </ul>
+                </li>
+
+              </ul>
+            </div>      
+      </nav>
+    </div>
+  </header>
+
+<!-- CAROUSEL INDEX -->
+  <section class="container-fluid">
+      <div id="carouselExampleControls" class="carousel slide carrousel-index" data-bs-ride="carousel">
+          <div class="carousel-inner col-xs-12 col-sm-6 col-md-9 col-lg-9">
+            <div class="carousel-item active">
+              <img src="./media/buenos-aires-1.jpg" class="img-fluid" alt="Av 9 de julio">
+            </div>
+            <div class="carousel-item col-xs-12 col-sm-6 col-md-9 col-lg-9">
+              <img src="./media/buenos-aires-2.jpg" class="img-fluid" alt="Congreso">
+            </div>
+            <div class="carousel-item col-xs-12 col-sm-6 col-md-9 col-lg-9">
+              <img src="./media/buenos-aires-3.jpg" class="img-fluid" alt="Puerto Madero">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
           </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  </section>
 
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNavDropdown"
-          >
-            <ul class="navbar-nav justify-content-end menu--margin">
-              <li class="nav-item">
-                <a class="nav-link menu__link active" href="index.html"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link menu__link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Destinos
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li>
-                    <a class="dropdown-item menu__link" href="#"
-                      >Buenos Aires</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item menu__link" href="#">Iguazu</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item menu__link" href="#">Calafate</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item menu__link" href="#">Ushuaia</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item menu__link" href="#">Mendoza</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item menu__link" href="#">Bariloche</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item menu__link" href="#"
-                      >Puerto Madryn</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item menu__link" href="#">Norte</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item menu__link" href="pages/arma.html"
-                      >Arma tu viaje</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link menu__link" href="./pages/paquetes.html"
-                  >Paquetes</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link menu__link" href="./pages/excursiones.html"
-                  >Excursiones</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link menu__link" href="./pages/contacto.html"
-                  >Contacto</a
-                >
-              </li>
+<!-- CONOCIENDO ARGENTINA -->
+  <div class="container mt-5">
+    <section class="row infoArgentina">
+      <div class="col-12 text-center">
+        <h2 id="conarg" class="infoArgentina__titulo--fuente texto--size_6  align-content-center justify-content-center"></h2>
+        <p id="conarg-text" class="infoArgentina__texto--fuente texto--size_3  align-content-center justify-content-center"></p>
+      </div>     
+    </section>
+  </div>
 
-              <!-- Selección de idioma -->
-              <li class="nav-item dropdown">
-                <a
-                  id="selected-flag"
-                  class="nav-link menu__link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <!-- aca va a cambiar la bandera dependiendo el idioma elegido -->
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li>
-                    <a
-                      class="dropdown-item menu__link"
-                      onclick="FiltrarIdioma('es')"
-                      href="#"
-                      ><img
-                        class="flag"
-                        src="media/flags/espana.png"
-                        alt="Bandera España"
-                    /></a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item menu__link"
-                      onclick="FiltrarIdioma('pt')"
-                      href="#"
-                      ><img
-                        class="flag"
-                        src="media/flags/brasil.png"
-                        alt="Bandera Brasil"
-                    /></a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item menu__link"
-                      onclick="FiltrarIdioma('en')"
-                      href="#"
-                      ><img
-                        class="flag"
-                        src="media/flags/reino-unido.png"
-                        alt="Bandera Reino Unido"
-                    /></a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item menu__link"
-                      onclick="FiltrarIdioma('it')"
-                      href="#"
-                      ><img
-                        class="flag"
-                        src="media/flags/italia.png"
-                        alt="Bandera Italia"
-                    /></a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item menu__link"
-                      onclick="FiltrarIdioma('fr')"
-                      href="#"
-                      ><img
-                        class="flag"
-                        src="media/flags/francia.png"
-                        alt="Bandera Francia"
-                    /></a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
+<!-- Aca estaban los paquetes sugeridos que ahora van en paquetes.html -->
 
-    <!-- CAROUSEL INDEX -->
-    <section class="container-fluid mb-5">
-      <div
-        id="carouselExampleControls"
-        class="carousel slide carrousel-index"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner col-xs-12 col-sm-6 col-md-9 col-lg-9">
-          <div class="carousel-item active">
-            <img
-              src="./media/buenos-aires-1.jpg"
-              class="img-fluid"
-              alt="Av 9 de julio"
-            />
+
+<!-- PAQUETES CON PRECIO -->
+    <!-- Conociendo Argentina -->
+    <section class="container-fluid mt-5">
+      <h2 class="text-center destinos__paquetes">Paquetes recomendados</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          
+          <!-- 1 -->
+          <div class="col">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#m-bsas-4">
+              <div class="card card--size">
+                <img src="./media/destinos/caminito_tours.jpg" class="card-img-top card__img--size" alt="Buenos Aires">
+                <div class="card-body">
+                  <h5 class="card-title">Buenos Aires, 4 días</h5>
+                  <p class="card-text">Paquete de 4 días en Buenos Aires</p>
+                </div>
+              </div>
+            </a>
           </div>
-          <div class="carousel-item col-xs-12 col-sm-6 col-md-9 col-lg-9">
-            <img
-              src="./media/buenos-aires-2.jpg"
-              class="img-fluid"
-              alt="Congreso"
-            />
+
+          <!-- 2 -->
+          <div class="col">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#m-bsas-iguazu-6">
+              <div class="card card--size">
+                <img src="./media/destinos/iguazu2.jpg" class="card-img-top card__img--size" alt="iguazu">
+                <div class="card-body">
+                  <h5 class="card-title">Buenos Aires / Iguazu</h5>
+                  <p class="card-text">Paquete de 6 dias combinando ambos destinos</p>
+                </div>
+              </div>
+            </a>
           </div>
-          <div class="carousel-item col-xs-12 col-sm-6 col-md-9 col-lg-9">
-            <img
-              src="./media/buenos-aires-3.jpg"
-              class="img-fluid"
-              alt="Puerto Madero"
-            />
+
+          <!-- 3 -->
+          <div class="col">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#m-bsassyj-7">
+              <div class="card card--size">
+                <img src="./media/destinos/syj2.jpg" class="card-img-top card__img--size" alt="bariloche">
+                <div class="card-body">
+                  <h5 class="card-title">Buenos Aires-Salta y Jujuy, 7 dias</h5>
+                  <p class="card-text">Paquete de 7 días combinando ambos destinos</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- 4 -->
+          <div class="col">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#m-bsasCalafIguazu-9">
+              <div class="card card--size">
+                <img src="./media/destinos/calafate2.jpg" class="card-img-top card__img--size" alt="bariloche">
+                <div class="card-body">
+                  <h5 class="card-title">Buenos Aires-Calafate-Iguazu, 9 dias</h5>
+                  <p class="card-text">Paquete de 9 días combinando los 3 destinos</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- 5 -->
+          <div class="col">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#m-bsasMzaBariloche-10">
+              <div class="card card--size">
+                <img src="./media/destinos/bariloche2.jpg" class="card-img-top card__img--size" alt="bariloche">
+                <div class="card-body">
+                  <h5 class="card-title">Buenos Aires-Mendoza-Bariloche, 10 dias</h5>
+                  <p class="card-text">Paquete de 10 días combinando los 3 destinos</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- 6 -->
+          <div class="col">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#m-bsasCalafUshuaia-10">
+              <div class="card card--size">
+                <img src="./media/destinos/ush2.jpg" class="card-img-top card__img--size" alt="Ushuaia">
+                <div class="card-body">
+                  <h5 class="card-title">Buenos Aires / Calafate / Ushuaia, 10 dias</h5>
+                  <p class="card-text">Paquete de 10 días combinando los 3 destinos</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- 7 -->
+          <div class="col">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#m-bsasMzaSyjIguazu-12">
+              <div class="card card--size">
+                <img src="./media/destinos/mendoza2.jpg" class="card-img-top card__img--size" alt="Mendoza">
+                <div class="card-body">
+                  <h5 class="card-title">Buenos Aires / Mendoza / Salta y Jujuy / Iguazu 12 dias</h5>
+                  <p class="card-text">Paquete de 12 días combinando los 4 destinos</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- 8 -->
+          <div class="col">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#m-bsasPmUshuaiaBariloche-13">
+              <div class="card card--size">
+                <img src="./media/destinos/pmy2.jpg" class="card-img-top card__img--size" alt="Puerto Madryn">
+                <div class="card-body">
+                  <h5 class="card-title">Buenos Aires / Puerto Madryn / Ushuaia / Bariloche, 13 dias</h5>
+                  <p class="card-text">Paquete de 13 días combinando los 4 destinos</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+          <!-- 9 -->
+          <div class="col">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#m-bsasPmCalafUshuaiaIguazu-15">
+              <div class="card card--size">
+                <img src="./media/destinos/ush3.jpg" class="card-img-top card__img--size" alt="Ushuaia">
+                <div class="card-body">
+                  <h5 class="card-title">Bs As / Puerto Madryn / Calafate / Ushuaia / Iguazu, 15 dias</h5>
+                  <p class="card-text">Paquete de 15 días combinando los 5 destinos</p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
     </section>
 
-    <!-- OPINIONES DE NUESTROS CLIENTES -->
-    <div
-      id="carouselExampleCaptions"
-      class="carousel slide nuestros-clientes"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="media/textura.jpg" class="d-block w-100" alt="textura" />
-          <div class="carousel-caption d-block fondo-texto">
-            <h4>Estuvimos averiguando para hacer una viaje a Argentina y recorrer varios puntos del país, ya que era nuestro deseo desde hace tiempo, estuvimos evaluando varias propuestas y nos terminamos de decidir por Argentina Travel and Tours, ellos estuvieron en cada detalle y nos asesoraron en cada etapa de nuestro viaje, salió todo a la perfección, recorrimos Buenos Aires, Iguazú, Calafate y Ushuaia, trabajan con operadores muy serios y responsables que nos explicaron todo y estuvieron atentos a nuestras solicitudes, en algún momento nos gustaría volver y recorrer otros destinos que nos quedaron pendientes, sin dudas los recomiendo y cuando volvamos contactaremos con ellos.</h4>
-            <h5>Emiliano y Sofía, México</h5>
-          </div>
-        </div>
-        <div class="carousel-item ">
-          <img src="media/textura.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-block fondo-texto">
-            <h4>Somos una pareja  de Colombia con una hija de 6 años, nos recomendaron viajar con ustedes y todo salió de maravilla, nos explicaron bien cuál iba a ser nuestro recorrido y nos reservaron hoteles muy buenos, en relación precio-calidad y ubicación, estuvimos dos semanas en varios puntos, Leandro fue nuestro asesor de viajes y salió todo mejor de lo que esperábamos, gracias.</h4>
-            <h5>Santiago y Antonella, Colombia</h5>
-          </div>
-        </div>
-        <div class="carousel-item ">
-          <img src="media/textura.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-block fondo-texto">
-            <h4>Teníamos el viaje planificado a Argentina antes de la pandemia, y lo tuvimos que posponer, así que lo concretamos hace algunas semanas. Son una empresa muy seria ya que nos mantuvieron todo según habíamos reservado, incluso decidimos quedaron unos días más para recorrer la ruta del vino en Mendoza y ellos se encargaron de todo, nos cambiaron nuestro vuelo y salió todo espectacular, ya los recomendamos a nuestros amigos que viajan en unos meses.</h4>
-            <h5>Ignacio, España</h5>
-          </div>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+
+
+
+<!-- CAROUSEL OPINIONES -->
+<br><br><br><br><br>
+<section class="container-fluid">
+  <div id="carouselExampleCaptions" class="margin carousel slide opiniones" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-
-    <!-- INFO ARGENTINA -->
-    <div class="container margen mb-5">
-      <section class="row infoArgentina">
-        <div class="col-12 text-center">
-          <h2
-            id="conarg"
-            class="infoArgentina__titulo--fuente texto--size_6 align-content-center justify-content-center"
-          ></h2>
-          <p
-            id="conarg-text"
-            class="infoArgentina__texto--fuente texto--size_3 align-content-center justify-content-center"
-          ></p>
+    <div class="carousel-inner opiniones">
+      <div class="carousel-item active">
+        <img src="./media/iguazu-larga.jpg" class="d-block w-100 img-opiniones" alt="Cataratas">
+        <div class="carousel-caption d-block">
+          
+          <p class="texto-opiniones">Estuvimos averiguando para hacer una viaje a Argentina y recorrer varios puntos del país, ya que era nuestro deseo desde hace tiempo, estuvimos evaluando varias propuestas y nos terminamos de decidir por Argentina Travel and Tours, ellos estuvieron en cada detalle y nos asesoraron en cada etapa de nuestro viaje, salió todo a la perfección, recorrimos Buenos Aires, Iguazú, Calafate y Ushuaia, trabajan con operadores muy serios y responsables que nos explicaron todo y estuvieron atentos a nuestras solicitudes, en algún momento nos gustaría volver y recorrer otros destinos que nos quedaron pendientes, sin dudas los recomiendo y cuando volvamos contactaremos con ellos.</p>
+          <h5 class="titulo-opiniones">Emiliano y Sofía, México</h5>
         </div>
-      </section>
+      </div>
+      <div class="carousel-item">
+        <img src="./media/iguazu-larga.jpg" class="d-block w-100 img-opiniones" alt="Cataratas">
+        <div class="carousel-caption d-block">
+          
+          <p class="texto-opiniones">Somos una pareja de Medellín con una hija de 6 años, nos recomendaron viajar con ustedes y todo salió de maravilla, nos explicaron bien cuál iba a ser nuestro recorrido y nos reservaron hoteles muy buenos, en relación precio-calidad y ubicación, estuvimos dos semanas en varios puntos, Leandro fue nuestro asesor de viajes y salió todo mejor de lo que esperábamos, gracias</p>
+          <h5 class="titulo-opiniones">Santiago y Antonella, Colombia</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./media/iguazu-larga.jpg" class="d-block w-100 img-opiniones" alt="Cataratas">
+        <div class="carousel-caption d-block">
+          
+          <p class="texto-opiniones">Teníamos el viaje planificado a Argentina antes de la pandemia, y lo tuvimos que posponer, así que lo concretamos hace algunas semanas. Son una empresa muy seria ya que nos mantuvieron todo según habíamos reservado, incluso decidimos quedaron unos días más para recorrer la ruta del vino en Mendoza y ellos se encargaron de todo, nos cambiaron nuestro vuelo y salió todo espectacular, ya los recomendamos a nuestros amigos que viajan en unos meses.</p>
+          <h5 class="titulo-opiniones">Ignacio, España</h5>
+        </div>
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
 
-    <!-- Paquetes Sugeridos titulo-->
-    <section class="banner mt-5 mb-5">
-      <h2 id="paq" class="text-center banner__titulo"></h2>
-    </section>
+  <footer class="container-fluid text-center footer-style">
+          <div class="row">
+              <div class="col-12 col-md-6">
+                  <h3>Dirección</h3>
+                  <p>
+                      Marcelo T de Alvear 925 <br>
+                      argentinatravelandtour@gmail.com
+                  </p>
+              </div>
+              <div class="col-12 col-md-6">
+                  <h3>Nuestras Redes</h3>
+                  <ul class="d-flex justify-content-center">
+                      <li>
+                          <a  target="_blank" href="https://www.facebook.com/Argentina-Travel-and-Tours-105623148812019"><img class="logos-redes" src="./media/logos/facebook.png" alt="logo"></a>
+                      </li>
+                      <li>
+                          <a  target="_blank" href="https://www.instagram.com/argentinatravelandtours/?hl=en"><img class="logos-redes" src="./media/logos/instagram.png" alt="logo"></a>
+                      </li>
+                      <li>
+                          <a  target="_blank" href="skype:leandro.trinanes?userinfo"><img class="logos-redes" src="./media/logos/skype.png" alt="logo"></a>
+                      </li>
+                      <li>
+                          <a  target="_blank" href="https://api.whatsapp.com/send?phone=5491166809531&text=Hola, Necesito mas informacion!"><img class="logos-redes" src="./media/logos/whatsapp.png" alt="logo"></a>
+                      </li>
+                      
+                  </ul>
+              </div>
+          </div>
+  </footer>
 
-    <!-- Paquetes Sugeridos -->
-    <section class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-md-6 col-xl-3">
-          <a onclick="FiltrarItinerario(1)" href="pages/itinerario.html">
-            <h2 id="paq-bsas" class="text-center mt-4"></h2>
-            <img
-              src="./media/destinos/dia3bsas.jpg"
-              class="col-12"
-              alt="Buenos Aires"
-            />
-            <p id="paq-bsas-text" class="text-justify"></p>
-          </a>
-        </div>
 
-        <div class="col-12 col-md-6 col-xl-3">
-          <a onclick="FiltrarItinerario(6)" href="pages/itinerario.html">
-            <h2 id="paq-mendoza" class="text-center mt-4"></h2>
-            <img
-              src="./media/destinos/mendoza1.jpg"
-              class="col-12"
-              alt="Mendoza"
-            />
-            <p id="paq-mendoza-text" class="text-justify"></p>
-          </a>
-        </div>
 
-        <div class="col-12 col-md-6 col-xl-3">
-          <a onclick="FiltrarItinerario(7)" href="pages/itinerario.html">
-            <h2 id="paq-bariloche" class="text-center mt-4"></h2>
-            <img
-              src="./media/destinos/bariloche3.jpg"
-              class="col-12"
-              alt="Bariloche"
-            />
-            <p id="paq-bariloche-text" class="text-justify"></p>
-          </a>
-        </div>
+<!-- MODALS -->
 
-        <div class="col-12 col-md-6 col-xl-3">
-          <a onclick="FiltrarItinerario(2)" href="pages/itinerario.html">
-            <h2 id="paq-cataratas" class="text-center mt-4"></h2>
-            <img
-              src="./media/brazil-1128568_1920.jpg"
-              class="col-12"
-              alt="Cataratas del Iguazú"
-            />
-            <p id="paq-cataratas-text" class="text-justify"></p>
-          </a>
-        </div>
+<!-- 1) Buenos aires - 4 días -->
+<div class="modal fade" id="m-bsas-4" tabindex="-1" aria-labelledby="bsas-4" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bsas-4">Buenos Aires 4 días</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-    </section>
+      <div class="modal-body">
+        <!-- img portada -->
+        <a class="w-100 d-flex justify-content-center" onclick="FiltrarItinerario(1)" href="pages/itinerario.html"><img class="w-75 img-fluid" src="media/buenos-aires-3.jpg" alt=""></a>
+        <div class="w-100 d-flex justify-content-center">
+          <a onclick="FiltrarItinerario(1)" href="pages/itinerario.html">Ver itinerario</a>
+        </div>
+        <br>
+        <!-- Tabla hoteles y precios -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-primary">Esmeralda Palace o Ibis</th>
+              <td class="table-primary">Buenos Aires</td>
+              <td class="table-primary">3* Standard</td>
+              <td class="table-primary">$ 310</td>
+            </tr>
+            <tr>
+              <td class="table-primary">Imperial Park</th>
+              <td class="table-primary">Buenos Aires</td>
+              <td class="table-primary">3* Standard</td>
+              <td class="table-primary">$ 340</td>
+            </tr>
+            <tr>
+              <td class="table-primary">Ramada by Wyndham</th>
+              <td class="table-primary">Buenos Aires</td>
+              <td class="table-primary">3* Standard</td>
+              <td class="table-primary">$ 370</td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Dazzler Maipu</th>
+              <td class="table-secondary">Buenos Aires</td>
+              <td class="table-secondary">4* Standard</td>
+              <td class="table-secondary">$ 385</td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Novotel</th>
+              <td class="table-secondary">Buenos Aires</td>
+              <td class="table-secondary">4* Superior</td>
+              <td class="table-secondary">$ 400</td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Dazzler recoleta</th>
+              <td class="table-secondary">Buenos Aires</td>
+              <td class="table-secondary">4* Classic</td>
+              <td class="table-secondary">$ 420</td>
+            </tr>
+            <tr>
+              <td class="table-success">Esmeralda Palace o Ibis</th>
+              <td class="table-success">Buenos Aires</td>
+              <td class="table-success">5* Superior</td>
+              <td class="table-success">$ 480</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>* Precio por persona, en base doble. Expresados en dolares estadounidenses</p>
+        <p class="texto-modal">* Consultar temporada</p>
+        <!-- link al paquete correspondiente -->
 
-    <footer class="container-fluid text-center footer-style">
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <h3>Dirección</h3>
-          <p>Marcelo T de Alvear 925</p>
-        </div>
-        <div class="col-12 col-md-6">
-          <h3>Mis redes</h3>
-          <ul class="d-flex justify-content-center">
-            <li>
-              <a target="_blank" href="https://www.facebook.com/"
-                ><img
-                  class="logos-redes"
-                  src="./media/logos/facebook.png"
-                  alt="logo"
-              /></a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.instagram.com/argentinatravelandtours/"
-                ><img
-                  class="logos-redes"
-                  src="./media/logos/instagram.png"
-                  alt="logo"
-              /></a>
-            </li>
-            <li>
-              <a target="_blank" href=""
-                ><img
-                  class="logos-redes"
-                  src="./media/logos/skype.png"
-                  alt="logo"
-              /></a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://api.whatsapp.com/send?phone=5491166809531"
-                ><img
-                  class="logos-redes"
-                  src="./media/logos/whatsapp.png"
-                  alt="logo"
-              /></a>
-            </li>
-          </ul>
-        </div>
+        <h4 class="text center"> EL VIAJE INCLUYE </h4>
+        <ul class="vinietas" >   
+          <li>03 noches de alojamiento en Buenos Aires con desayunos en la categoría elegida.</li>
+          <li>Traslados de llegada y salida.</li>
+          <li>City Tour.</li>
+          <li>Guía de habla hispana.</li>
+          <li>Los documentos de viaje se entregarán en formato digital para descargar en su dispositivo móvil.</li>
+        </ul>
+        <h4>EL VIAJE NO INCLUYE</h4>
+        <ul class="vinietas">
+          <li>Tarjeta de Asistencia Turística (seguro de viajero). Consultar opciones.</li>
+          <li>Ningún servicio no especificado.</li>
+          <li>Gastos personales y propinas a maleteros, trasladistas y meseros.</li>
+        </ul>
+
       </div>
-    </footer>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin Modal bsas 4 dias -->
 
-    <!-- Botstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/30fc018de6.js"
-      crossorigin="anonymous"
-    ></script>
 
-    <!-- AOS JS -->
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- 2)	Buenos Aires-Iguazu 6 dias -->
+<div class="modal fade" id="m-bsas-iguazu-6" tabindex="-1" aria-labelledby="bsas-iguazu-6" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bsas-iguazu-6">Buenos Aires-Iguazu, 6 dias</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- img portada -->
+        <a class="w-100 d-flex justify-content-center" onclick="FiltrarItinerario(2)" href="pages/itinerario.html"><img class="w-75 img-fluid" src="media/destinos/iguazu1.jpg" alt=""></a>
+        <div class="w-100 d-flex justify-content-center">
+          <a onclick="FiltrarItinerario(2)" href="pages/itinerario.html">Ver itinerario</a>
+        </div>
+        <br>
+        <!-- Tabla hoteles y precios -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-primary">Esmeralda Palace o Ibis</th>
+              <td class="table-primary">Buenos Aires</td>
+              <td class="table-primary">3* Standard</td>
+              <td class="table-primary"></td>
+            </tr>
+            <tr>
+              <td class="table-primary">Los Helechos</th>
+              <td class="table-primary">Iguazú</td>
+              <td class="table-primary">3* Standard</td>
+              <td class="table-primary">$ 495</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-secondary">Ramada by Wyndham</th>
+              <td class="table-secondary">Buenos Aires</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">YVY hotel de selva</th>
+              <td class="table-secondary">Iguazú</td>
+              <td class="table-secondary">4* Standard</td>
+              <td class="table-secondary">$ 640</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-success">Dazzler recoleta</th>
+              <td class="table-success">Buenos Aires</td>
+              <td class="table-success">4* Classic</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Mercure</th>
+              <td class="table-success">Iguazú</td>
+              <td class="table-success">4* Standard</td>
+              <td class="table-success">$ 700</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-info">Madero</th>
+              <td class="table-info">Buenos Aires</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Loi Suites</th>
+              <td class="table-info">Iguazú</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info">$ 870</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>* Precio por persona, en base doble. Expresados en dolares estadounidenses</p>
+        <p class="texto-modal">* Consultar temporada</p>
+        <!-- link al paquete correspondiente -->
+
+        <h4 class="text center"> EL VIAJE INCLUYE </h4>
+        <ul class="vinietas" >   
+          <li>3 noches de alojamiento en Buenos Aires con desayunos en la categoría elegida.</li>
+          <li>2 noches de alojamiento en Iguazú con desayunos en la categoría elegida</li>
+          <li>Traslados de llegada y salida.</li>
+          <li>Excursiones detalladas en el itinerario</li>
+          <li>Guía de habla hispana.</li>
+          <li>Los documentos de viaje se entregarán en formato digital para descargar en su dispositivo móvil.</li>
+        </ul>
+        <h4>EL VIAJE NO INCLUYE</h4>
+        <ul class="vinietas">
+          <li>Tarjeta de Asistencia Turística (seguro de viajero). Consultar opciones.</li>
+          <li>Ningún servicio no especificado.</li>
+          <li>Gastos personales y propinas a maleteros, trasladistas y meseros.</li>
+        </ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin Modal Buenos Aires - iguazú 6 dias -->
+
+
+<!-- 3)	Buenos Aires - Salta y Jujuy, 7 dias -->
+<div class="modal fade" id="m-bsassyj-7" tabindex="-1" aria-labelledby="bsassyj-7" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bsassyj-7">Buenos Aires-Salta y Jujuy, 7 dias</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- img portada -->
+        <a class="w-100 d-flex justify-content-center" onclick="FiltrarItinerario(8)" href="pages/itinerario.html"><img class="w-75 img-fluid" src="media/destinos/syj1.jpg" alt="Salta y Jujuy"></a>
+        <div class="w-100 d-flex justify-content-center">
+          <a onclick="FiltrarItinerario(8)" href="pages/itinerario.html">Ver itinerario</a>
+        </div>
+        <br>
+        <!-- Tabla hoteles y precios -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-primary">Esmeralda Palace o Ibis</th>
+              <td class="table-primary">Buenos Aires</td>
+              <td class="table-primary">3* Standard</td>
+              <td class="table-primary"></td>
+            </tr>
+            <tr>
+              <td class="table-primary">Alto parque</th>
+              <td class="table-primary">Salta</td>
+              <td class="table-primary">3* Standard</td>
+              <td class="table-primary">$ 560</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+              <td class="table-secondary">Ramada by Wyndham</th>
+              <td class="table-secondary">Buenos Aires</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Inkai</th>
+              <td class="table-secondary">Salta</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary">$ 730</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-success">Dazzler recoleta</th>
+              <td class="table-success">Buenos Aires</td>
+              <td class="table-success">4* Classic</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Gran presidente</th>
+              <td class="table-success">Salta</td>
+              <td class="table-success">4* Standard</td>
+              <td class="table-success">$ 810</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-info">Madero</th>
+              <td class="table-info">Buenos Aires</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Sheraron Salta</th>
+              <td class="table-info">Salta</td>
+              <td class="table-info">5* Classic</td>
+              <td class="table-info">$ 980</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>* Precio por persona, en base doble. Expresados en dolares estadounidenses</p>
+        <p class="texto-modal">* Consultar temporada</p>
+        <!-- link al paquete correspondiente -->
+
+        <h4 class="text center"> EL VIAJE INCLUYE </h4>
+        <ul class="vinietas" >   
+          <li>03 noches de alojamiento en Buenos Aires con desayunos en la categoría elegida.</li>
+          <li>03 noches de alojamiento en Salta con desayunos en la categoría elegida.</li>
+          <li>Traslados de llegada y salida.</li>
+          <li>City Tour.</li>
+          <li>Guía de habla hispana.</li>
+          <li>Los documentos de viaje se entregarán en formato digital para descargar en su dispositivo móvil.</li>
+        </ul>
+        <h4>EL VIAJE NO INCLUYE</h4>
+        <ul class="vinietas">
+          <li>Tarjeta de Asistencia Turística (seguro de viajero). Consultar opciones.</li>
+          <li>Ningún servicio no especificado.</li>
+          <li>Gastos personales y propinas a maleteros, trasladistas y meseros.</li>
+        </ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin Modal asd -->
+
+
+<!-- 4)	Buenos Aires-Calafate-Iguazu, 9 dias -->
+<div class="modal fade" id="m-bsasCalafIguazu-9" tabindex="-1" aria-labelledby="bsasCalafIguazu-9" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bsasCalafIguazu-9">Buenos Aires-Calafate-Iguazu, 9 dias</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- img portada -->
+        <a class="w-100 d-flex justify-content-center" onclick="FiltrarItinerario(10)" href="pages/itinerario.html"><img class="w-75 img-fluid" src="media/destinos/calafate1.jpg" alt=""></a>
+        <div class="w-100 d-flex justify-content-center">
+          <a onclick="FiltrarItinerario(10)" href="pages/itinerario.html">Ver itinerario</a>
+        </div>
+        <br>
+        <!-- Tabla hoteles y precios -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-primary">Esmeralda Palace o Ibis</td>
+              <td class="table-primary">Buenos Aires</td>
+              <td class="table-primary">3* Standard</td>
+              <td class="table-primary"></td>
+            </tr>
+            <tr>
+              <td class="table-primary">Hosteria la estepa</td>
+              <td class="table-primary">Calafate</td>
+              <td class="table-primary">3* Standard</td>
+              <td class="table-primary"></td>
+            </tr>
+            <tr>
+              <td class="table-primary">Los Helechos</td>
+              <td class="table-primary">Iguazú</td>
+              <td class="table-primary">3* Standard</td>
+              <td class="table-primary">$ 880</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+              <td class="table-secondary">Ramada by Wyndham</td>
+              <td class="table-secondary">Buenos Aires</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Cauquenes de Nimez</td>
+              <td class="table-secondary">Calafate</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">YVY hotel de selva</td>
+              <td class="table-secondary">Iguazú</td>
+              <td class="table-secondary">4* Standard</td>
+              <td class="table-secondary">$ 1030</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-success">Dazzler recoleta</td>
+              <td class="table-success">Buenos Aires</td>
+              <td class="table-success">4* Classic</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Esplendor o Altos Calafate</td>
+              <td class="table-success">Calafate</td>
+              <td class="table-success">4* Concept</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Mercure</td>
+              <td class="table-success">Iguazú</td>
+              <td class="table-success">4* Standard</td>
+              <td class="table-success">$ 1260</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-info">Madero</td>
+              <td class="table-info">Buenos Aires</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Xelena</td>
+              <td class="table-info">Calafate</td>
+              <td class="table-info">5* Vista Lateral</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Loi Suites</td>
+              <td class="table-info">Iguazú</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info">$ 1530</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>* Precio por persona, en base doble. Expresados en dolares estadounidenses</p>
+        <p class="texto-modal">* Consultar temporada</p>
+        <!-- link al paquete correspondiente -->
+
+        <h4 class="text center"> EL VIAJE INCLUYE </h4>
+        <ul class="vinietas" >   
+          <li>03 noches de alojamiento en Buenos Aires con desayunos en la categoría elegida.</li>
+          <li>03 noches de alojamiento en Calafate con desayunos en la categoría elegida.</li>
+          <li>02 noches de alojamiento en Iguazú con desayunos en la categoría elegida.</li>
+          <li>Traslados de llegada y salida.</li>
+          <li>Excursiones detalladas en el itinerario</li>
+          <li>Guía de habla hispana.</li>
+          <li>Los documentos de viaje se entregarán en formato digital para descargar en su dispositivo móvil.</li>
+        </ul>
+        <h4>EL VIAJE NO INCLUYE</h4>
+        <ul class="vinietas">
+          <li>Tarjeta de Asistencia Turística (seguro de viajero). Consultar opciones.</li>
+          <li>Ningún servicio no especificado.</li>
+          <li>Gastos personales y propinas a maleteros, trasladistas y meseros.</li>
+        </ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin Modal Buenos Aires-Calafate-Iguazu, 9 dias -->
+
+
+<!-- 5)	asd -->
+<div class="modal fade" id="m-bsasMzaBariloche-10" tabindex="-1" aria-labelledby="bsasMzaBariloche-10" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bsasMzaBariloche-10">Buenos Aires-Mendoza-Bariloche, 10 dias</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- img portada -->
+        <a class="w-100 d-flex justify-content-center" onclick="FiltrarItinerario(12)" href="pages/itinerario.html"><img class="w-75 img-fluid" src="media/destinos/bariloche1.jpg" alt="Bariloche"></a>
+        <div class="w-100 d-flex justify-content-center">
+          <a onclick="FiltrarItinerario(12)" href="pages/itinerario.html">Ver itinerario</a>
+        </div>
+        <br>
+        <!-- Tabla hoteles y precios -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-primary">Ramada by Wyndham</th>
+              <td class="table-primary">Buenos Aires</td>
+              <td class="table-primary">3* Standard</td>
+              <td class="table-primary"></td>
+            </tr>
+            <tr>
+              <td class="table-primary">Urbana Suites</th>
+              <td class="table-primary">Mendoza</td>
+              <td class="table-primary">3* Standard</td>
+              <td class="table-primary"></td>
+            </tr>
+            <tr>
+              <td class="table-primary">Pioneros Villa Huinid</th>
+              <td class="table-primary">Bariloche</td>
+              <td class="table-primary">4* Standard</td>
+              <td class="table-primary">$ 1130</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-secondary">Dazzler recoleta</th>
+              <td class="table-secondary">Buenos Aires</td>
+              <td class="table-secondary">4* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Esplendor Mendoza</th>
+              <td class="table-secondary">Mendoza</td>
+              <td class="table-secondary">4* Concept</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Bustillo Villa Huinid</th>
+              <td class="table-secondary">Bariloche</td>
+              <td class="table-secondary">4* Standard</td>
+              <td class="table-secondary">$ 1270</td>
+            </tr>
+            
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-info">Madero</td>
+              <td class="table-info">Buenos Aires</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Sheraron Mendoza</td>
+              <td class="table-info">Mendoza</td>
+              <td class="table-info">5* Vista Lateral</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Cacique Inacayal o
+                Alma del lago</td>
+              <td class="table-info">Bariloche</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info">$ 1550</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>* Precio por persona, en base doble. Expresados en dolares estadounidenses</p>
+        <p class="texto-modal">* Consultar temporada</p>
+        <!-- link al paquete correspondiente -->
+
+        <h4 class="text center"> EL VIAJE INCLUYE </h4>
+        <ul class="vinietas" >   
+          <li>03 noches de alojamiento en Buenos Aires con desayunos en la categoría elegida.</li>
+          <li>03 noches de alojamiento en Mendoza con desayunos en la categoría elegida.</li>
+          <li>03 noches de alojamiento en Bariloche con desayunos en la categoría elegida.</li>
+          <li>Traslados de llegada y salida.</li>
+          <li>Excursiones detalladas en el itinerario</li>
+          <li>Guía de habla hispana.</li>
+          <li>Los documentos de viaje se entregarán en formato digital para descargar en su dispositivo móvil.</li>
+        </ul>
+        <h4>EL VIAJE NO INCLUYE</h4>
+        <ul class="vinietas">
+          <li>Tarjeta de Asistencia Turística (seguro de viajero). Consultar opciones.</li>
+          <li>Ningún servicio no especificado.</li>
+          <li>Gastos personales y propinas a maleteros, trasladistas y meseros.</li>
+        </ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin Modal asd -->
+
+
+<!-- 6)	asd -->
+<div class="modal fade" id="m-bsasCalafUshuaia-10" tabindex="-1" aria-labelledby="bsasCalafUshuaia-10" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bsasCalafUshuaia-10">Buenos Aires / Calafate / Ushuaia, 10 dias</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- img portada -->
+        <a class="w-100 d-flex justify-content-center" onclick="FiltrarItinerario(13)" href="pages/itinerario.html"><img class="w-75 img-fluid" src="media/buenos-aires-3.jpg" alt=""></a>
+        <div class="w-100 d-flex justify-content-center">
+          <a onclick="FiltrarItinerario(13)" href="pages/itinerario.html">Ver itinerario</a>
+        </div>
+        <br>
+        <!-- Tabla hoteles y precios -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-secondary">Ramada by Wyndham</td>
+              <td class="table-secondary">Buenos Aires</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Cauquenes de Nimez</td>
+              <td class="table-secondary">Calafate</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Les Eclaireurs</td>
+              <td class="table-secondary">Ushuaia</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary">$ 1235</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-success">Dazzler recoleta</td>
+              <td class="table-success">Buenos Aires</td>
+              <td class="table-success">4* Classic</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Esplendor o Altos Calafate</td>
+              <td class="table-success">Calafate</td>
+              <td class="table-success">4* Concept</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Alto Andino</td>
+              <td class="table-success">Ushuaia</td>
+              <td class="table-success">4* Standard</td>
+              <td class="table-success">$ 1510</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-info">Madero</td>
+              <td class="table-info">Buenos Aires</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Xelena</td>
+              <td class="table-info">Calafate</td>
+              <td class="table-info">5* Vista Lateral</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Las Hayas</td>
+              <td class="table-info">Ushuaia</td>
+              <td class="table-info">5* Standard</td>
+              <td class="table-info">$ 1610</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>* Precio por persona, en base doble. Expresados en dolares estadounidenses</p>
+        <p class="texto-modal">* Consultar temporada</p>
+        <!-- link al paquete correspondiente -->
+
+        <h4 class="text center"> EL VIAJE INCLUYE </h4>
+        <ul class="vinietas" >   
+          <li>03 noches de alojamiento en Buenos Aires con desayunos en la categoría elegida.</li>
+          <li>03 noches de alojamiento en Calafate con desayunos en la categoría elegida.</li>
+          <li>03 noches de alojamiento en Ushuaia con desayunos en la categoría elegida.</li>
+          <li>Traslados de llegada y salida.</li>
+          <li>Excursiones detalladas en el itinerario</li>
+          <li>Guía de habla hispana.</li>
+          <li>Los documentos de viaje se entregarán en formato digital para descargar en su dispositivo móvil.</li>
+        </ul>
+        <h4>EL VIAJE NO INCLUYE</h4>
+        <ul class="vinietas">
+          <li>Tarjeta de Asistencia Turística (seguro de viajero). Consultar opciones.</li>
+          <li>Ningún servicio no especificado.</li>
+          <li>Gastos personales y propinas a maleteros, trasladistas y meseros.</li>
+        </ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin Modal asd -->
+
+
+<!-- 7)	asd -->
+<div class="modal fade" id="m-bsasMzaSyjIguazu-12" tabindex="-1" aria-labelledby="bsasMzaSyjIguazu-12" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bsasMzaSyjIguazu-12">Buenos Aires / Mendoza / Salta y Jujuy / Iguazu, 12 dias</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- img portada -->
+        <a class="w-100 d-flex justify-content-center" onclick="FiltrarItinerario(17)" href="pages/itinerario.html"><img class="w-75 img-fluid" src="media/destinos/mendoza1.jpg" alt=""></a>
+        <div class="w-100 d-flex justify-content-center">
+          <a onclick="FiltrarItinerario(17)" href="pages/itinerario.html">Ver itinerario</a>
+        </div>
+        <br>
+        <!-- Tabla hoteles y precios -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-secondary">Ramada by Wyndham</td>
+              <td class="table-secondary">Buenos Aires</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Urbana Suites</td>
+              <td class="table-secondary">Mendoza</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Inkai</td>
+              <td class="table-secondary">Salta</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">YVY hotel de selva</td>
+              <td class="table-secondary">Iguazú</td>
+              <td class="table-secondary">4* Standard</td>
+              <td class="table-secondary">$ 1290</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-success">Dazzler recoleta</td>
+              <td class="table-success">Buenos Aires</td>
+              <td class="table-success">4* Classic</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Esplendor Mendoza</td>
+              <td class="table-success">Mendoza</td>
+              <td class="table-success">4* Concept</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Gran presidente</td>
+              <td class="table-success">Salta</td>
+              <td class="table-success">4* Standard</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Mercure</td>
+              <td class="table-success">Iguazú</td>
+              <td class="table-success">4* Standard</td>
+              <td class="table-success">$ 1530</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-info">Madero</td>
+              <td class="table-info">Buenos Aires</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Sheraron Mendoza</td>
+              <td class="table-info">Mendoza</td>
+              <td class="table-info">5* Vista Lateral</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Sheraron Salta</td>
+              <td class="table-info">Salta</td>
+              <td class="table-info">5* Cassic</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Loi Suites</td>
+              <td class="table-info">iguazú</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info">$ 1900</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>* Precio por persona, en base doble. Expresados en dolares estadounidenses</p>
+        <p class="texto-modal">* Consultar temporada</p>
+        <!-- link al paquete correspondiente -->
+
+        <h4 class="text center"> EL VIAJE INCLUYE </h4>
+        <ul class="vinietas" >   
+          <li>03 noches de alojamiento en Buenos Aires con desayunos en la categoría elegida.</li>
+          <li>03 noches de alojamiento en Mendoza con desayunos en la categoría elegida.</li>
+          <li>03 noches de alojamiento en Salta con desayunos en la categoría elegida.</li>
+          <li>02 noches de alojamiento en Iguazú con desayunos en la categoría elegida.</li>
+          <li>Traslados de llegada y salida.</li>
+          <li>Excursiones detalladas en el itinerario</li>
+          <li>Guía de habla hispana.</li>
+          <li>Los documentos de viaje se entregarán en formato digital para descargar en su dispositivo móvil.</li>
+        </ul>
+        <h4>EL VIAJE NO INCLUYE</h4>
+        <ul class="vinietas">
+          <li>Tarjeta de Asistencia Turística (seguro de viajero). Consultar opciones.</li>
+          <li>Ningún servicio no especificado.</li>
+          <li>Gastos personales y propinas a maleteros, trasladistas y meseros.</li>
+        </ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin Modal asd -->
+
+
+<!-- 8)	asd -->
+<div class="modal fade" id="m-bsasPmUshuaiaBariloche-13" tabindex="-1" aria-labelledby="bsasPmUshuaiaBariloche-13" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bsasPmUshuaiaBariloche-13">Buenos Aires / Puerto Madryn / Ushuaia / Bariloche, 13 dias</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- img portada -->
+        <a class="w-100 d-flex justify-content-center" onclick="FiltrarItinerario(21)" href="pages/itinerario.html"><img class="w-75 img-fluid" src="media/destinos/pmy1.jpg" alt=""></a>
+        <div class="w-100 d-flex justify-content-center">
+          <a onclick="FiltrarItinerario(21)" href="pages/itinerario.html">Ver itinerario</a>
+        </div>
+        <br>
+        <!-- Tabla hoteles y precios -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-secondary">Ramada by Wyndham</td>
+              <td class="table-secondary">Buenos Aires</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Gran Madryn</td>
+              <td class="table-secondary">Puerto Madryn</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Les Eclaireurs</td>
+              <td class="table-secondary">Ushuaia</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Pioneros Villa Huinid</td>
+              <td class="table-secondary">Bariloche</td>
+              <td class="table-secondary">4* Standard</td>
+              <td class="table-secondary">$ 1640</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-success">Dazzler recoleta</td>
+              <td class="table-success">Buenos Aires</td>
+              <td class="table-success">4* Classic</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Dazzler Pmy</td>
+              <td class="table-success">Puerto Madryn</td>
+              <td class="table-success">4* Classic</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Patagonia Jarke</td>
+              <td class="table-success">Ushuaia</td>
+              <td class="table-success">4* Standard</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Bustillo Villa Huinid</td>
+              <td class="table-success">Bariloche</td>
+              <td class="table-success">4* Standard</td>
+              <td class="table-success">$ 1960</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-info">Madero</td>
+              <td class="table-info">Buenos Aires</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Territorio</td>
+              <td class="table-info">Ushuaia</td>
+              <td class="table-info">5* Standard</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Las Hayas</td>
+              <td class="table-info">Ushuaia</td>
+              <td class="table-info">5* Standard</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Cacique Inacayal o
+                Alma del lago</td>
+              <td class="table-info">Bariloche</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info">$ 2300</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>* Precio por persona, en base doble. Expresados en dolares estadounidenses</p>
+        <p class="texto-modal">* Consultar temporada</p>
+        <!-- link al paquete correspondiente -->
+
+        <h4 class="text center"> EL VIAJE INCLUYE </h4>
+        <ul class="vinietas" >   
+          <li>03 noches de alojamiento en Buenos Aires con desayunos en la categoría elegida.</li>
+          <li>03 noches de alojamiento en Puerto Madryn con desayunos en la categoría elegida.</li>
+          <li>03 noches de alojamiento en Ushuaia con desayunos en la categoría elegida.</li>
+          <li>03 noches de alojamiento en Bariloche con desayunos en la categoría elegida.</li>
+          <li>Traslados de llegada y salida.</li>
+          <li>Excursiones detalladas en el itinerario</li>
+          <li>Guía de habla hispana.</li>
+          <li>Los documentos de viaje se entregarán en formato digital para descargar en su dispositivo móvil.</li>
+        </ul>
+        <h4>EL VIAJE NO INCLUYE</h4>
+        <ul class="vinietas">
+          <li>Tarjeta de Asistencia Turística (seguro de viajero). Consultar opciones.</li>
+          <li>Ningún servicio no especificado.</li>
+          <li>Gastos personales y propinas a maleteros, trasladistas y meseros.</li>
+        </ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin Modal asd -->
+
+
+<!-- 9)	asd -->
+<div class="modal fade" id="m-bsasPmCalafUshuaiaIguazu-15" tabindex="-1" aria-labelledby="bsasPmCalafUshuaiaIguazu-15" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bsasPmCalafUshuaiaIguazu-15">Bs As / Puerto Madryn / Calafate / Ushuaia / Iguazu, 15 dias</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- img portada -->
+        <a class="w-100 d-flex justify-content-center" onclick="FiltrarItinerario(23)" href="pages/itinerario.html"><img class="w-75 img-fluid" src="media/destinos/ush1.jpg" alt=""></a>
+        <div class="w-100 d-flex justify-content-center">
+          <a onclick="FiltrarItinerario(23)" href="pages/itinerario.html">Ver itinerario</a>
+        </div>
+        <br>
+        <!-- Tabla hoteles y precios -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-secondary">Ramada by Wyndham</td>
+              <td class="table-secondary">Buenos Aires</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Gran Madryn</td>
+              <td class="table-secondary">Puerto Madryn</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Cauquenes de Nimez</td>
+              <td class="table-secondary">Calafate</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">Les Eclaireurs</td>
+              <td class="table-secondary">Ushuaia</td>
+              <td class="table-secondary">3* Standard</td>
+              <td class="table-secondary"></td>
+            </tr>
+            <tr>
+              <td class="table-secondary">YVY hotel de selva</td>
+              <td class="table-secondary">Iguazú</td>
+              <td class="table-secondary">4* Standard</td>
+              <td class="table-secondary">$ 1910</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-success">Dazzler recoleta</td>
+              <td class="table-success">Buenos Aires</td>
+              <td class="table-success">4* Classic</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Dazzler Pmy</td>
+              <td class="table-success">Puerto Madryn</td>
+              <td class="table-success">4* Classic</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Esplendor o Altos Calafate</td>
+              <td class="table-success">Calafate</td>
+              <td class="table-success">4* Concept</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Patagonia Jarke</td>
+              <td class="table-success">Ushuaia</td>
+              <td class="table-success">4* Standard</td>
+              <td class="table-success"></td>
+            </tr>
+            <tr>
+              <td class="table-success">Mercuree</td>
+              <td class="table-success">Iguazú</td>
+              <td class="table-success">4* Standard</td>
+              <td class="table-success">$ 2310</td>
+            </tr>
+            <tr>
+              <th scope="col">Hotel</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+            </tr>
+            <tr>
+              <td class="table-info">Madero</td>
+              <td class="table-info">Buenos Aires</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Territorio</td>
+              <td class="table-info">Puerto Madryn</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Xelena</td>
+              <td class="table-info">Calafate</td>
+              <td class="table-info">5* Vista Lateral</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Las Hayas</td>
+              <td class="table-info">Ushuaia</td>
+              <td class="table-info">5* Standard</td>
+              <td class="table-info"></td>
+            </tr>
+            <tr>
+              <td class="table-info">Loi Suites</td>
+              <td class="table-info">Iguazú</td>
+              <td class="table-info">5* Superior</td>
+              <td class="table-info">$ 2940</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>* Precio por persona, en base doble. Expresados en dolares estadounidenses</p>
+        <p class="texto-modal">* Consultar temporada</p>
+        <!-- link al paquete correspondiente -->
+
+        <h4 class="text center"> EL VIAJE INCLUYE </h4>
+        <ul class="vinietas" >   
+          <li>03 noches de alojamiento en Buenos Aires con desayunos en la categoría elegida.</li>
+          <li>03 noches de alojamiento en Puerto Madryn con desayunos en la categoría elegida.</li>
+          <li>03 noches de alojamiento en Calafate con desayunos en la categoría elegida.</li>
+          <li>03 noches de alojamiento en Ushuaia con desayunos en la categoría elegida.</li>
+          <li>02 noches de alojamiento en Iguazú con desayunos en la categoría elegida.</li>
+          <li>Traslados de llegada y salida.</li>
+          <li>Excursiones detalladas en el itinerario</li>
+          <li>Guía de habla hispana.</li>
+          <li>Los documentos de viaje se entregarán en formato digital para descargar en su dispositivo móvil.</li>
+        </ul>
+        <h4>EL VIAJE NO INCLUYE</h4>
+        <ul class="vinietas">
+          <li>Tarjeta de Asistencia Turística (seguro de viajero). Consultar opciones.</li>
+          <li>Ningún servicio no especificado.</li>
+          <li>Gastos personales y propinas a maleteros, trasladistas y meseros.</li>
+        </ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin Modal asd -->
+
+
+
+<!----------------------------------------------------FIN MODALS----------------------------------------------------->
+
+<!-- Botstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/30fc018de6.js" crossorigin="anonymous"></script>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
-</script> -->
+</script>
 
-    <!-- Enlaces js propios-->
-    <script src="js/seleccionLenguajeIndex.js"></script>
-  </body>
+<!-- Enlaces js propios-->
+<script src="js/seleccionLenguajeIndex.js"></script>
+
+</body>
 </html>

@@ -41,8 +41,6 @@ function FiltrarIdioma(cod){
 
     switch (lang[0]) {
         case 'es':
-            document.getElementById('conarg').innerHTML='Conociendo Argentina';
-            document.getElementById('conarg-text').innerHTML='Dentro de cada una de las provincias que conforman la Argentina existen distintos atractivos, destinos y tesoros imposibles de imaginar. Podras encontrar variedad de ciudades y geografías propias que seguramente lograrán incentivarnos para comenzar un viaje. Paisajes con sierras, montañas, quebradas, ríos, lagos, lagunas, campo y mar esperan a quien se anime a buscarlos. Ciudades grandes, chicas, parecidas y tan distintas a la vez, se esconden a lo largo del mapa para ser descubiertas por quién las visite. Cada provincia tiene una historia que te está esperando, tenés que encontrar la tuya.';
             document.getElementById('paq').innerHTML="Paquetes Sugeridos";
             document.getElementById('paq-bsas').innerHTML="Paquete Buenos Aires";
             document.getElementById('paq-mendoza').innerHTML="Paquete Mendoza";
@@ -54,8 +52,6 @@ function FiltrarIdioma(cod){
             document.getElementById('paq-cataratas-text').innerHTML="Las Cataratas del Iguazú son una de las Siete Maravillas del Mundo, están conformadas por 275 saltos de agua que caen desde las más diversas alturas. Desde el inferior se llega a la base de los saltos, donde la fuerza del agua se transforma en rocío o vapor que moja a los concurrentes. Están ubicadas al noreste, zona de selva subtropical, son las cataratas más conocidas de toda la región y su explotación turística cuenta con buen desarrollo de infraestructura y con paseos muy diversos. Es zona del parque nacional Iguazú, donde se preservan la flora y fauna originales. Su salto más imponente es la llamada Garganta del Diablo.";            
         break;
         case 'pt':
-            document.getElementById('conarg').innerHTML='Conhecendo a argentina';
-            document.getElementById('conarg-text').innerHTML='Dentro de cada uma das províncias que compõem a Argentina existem diferentes atrações, destinos e tesouros impossíveis de imaginar. Você pode encontrar uma variedade de cidades e geografias que certamente nos motivarão a iniciar uma viagem. Paisagens com cordilheiras, montanhas, riachos, rios, lagos, lagoas, campo e mar aguardam quem ousar procurá-las. Cidades grandes, pequenas, semelhantes e tão diferentes ao mesmo tempo, ficam escondidas por todo o mapa para serem descobertas por quem as visita. Cada província tem uma história que te espera, tens que encontrar a tua.';
             document.getElementById('paq').innerHTML="Pacotes Sugeridos";
             document.getElementById('paq-bsas').innerHTML="Buenos Aires";
             document.getElementById('paq-mendoza').innerHTML="Mendoza";
@@ -67,8 +63,6 @@ function FiltrarIdioma(cod){
             document.getElementById('paq-cataratas-text').innerHTML="As Cataratas do Iguaçu são uma das Sete Maravilhas do Mundo, são formadas por 275 cachoeiras que caem das mais diversas alturas. Do fundo chega-se à base das quedas, onde a força da água se transforma em orvalho ou vapor que molha os participantes. Localizadas ao Nordeste, uma área de selva subtropical, são as cachoeiras mais conhecidas de toda a região e seu aproveitamento turístico conta com bom desenvolvimento de infraestrutura e passeios muito diversos. É uma área do Parque Nacional do Iguaçu, onde a flora e a fauna originais são preservadas. Seu salto mais impressionante é a chamada Garganta do Diabo.";
         break;
         case 'en':
-            document.getElementById('conarg').innerHTML='Knowing Argentina';
-            document.getElementById('conarg-text').innerHTML='Within each of the provinces that make up Argentina there are different attractions, destinations and treasures impossible to imagine. You will be able to find a variety of cities and geographies that will surely motivate us to start a trip. Landscapes with mountain ranges, mountains, streams, rivers, lakes, lagoons, countryside and sea await those who dare to look for them. Large cities, small, similar and so different at the same time, are hidden throughout the map to be discovered by whoever visits them. Each province has a story that is waiting for you, you have to find yours.';
             document.getElementById('paq').innerHTML="Suggested packages";
             document.getElementById('paq-bsas').innerHTML="Buenos Aires";
             document.getElementById('paq-mendoza').innerHTML="Mendoza";
@@ -80,8 +74,6 @@ function FiltrarIdioma(cod){
             document.getElementById('paq-cataratas-text').innerHTML="The Iguazu Falls are one of the Seven Wonders of the World, they are made up of 275 waterfalls that fall from the most diverse heights. From the bottom one reaches the base of the falls, where the force of the water is transformed into dew or steam that wets the attendees. They are located to the northeast, a subtropical jungle area, they are the best known waterfalls in the entire region and their tourist exploitation has good infrastructure development and very diverse walks. It is an area of the Iguazú National Park, where the original flora and fauna are preserved. Its most impressive jump is the so-called Devil's Throat.";
         break;
         case 'it':
-            document.getElementById('conarg').innerHTML='Conoscere l Argentina';
-            document.getElementById('conarg-text').innerHTML="All'interno di ciascuna delle province che compongono l'Argentina ci sono diverse attrazioni, destinazioni e tesori impossibili da immaginare. Puoi trovare una varietà di città e aree geografiche che sicuramente ci motiveranno ad iniziare un viaggio. Paesaggi con catene montuose, montagne, torrenti, fiumi, laghi, lagune, campagne e mare attendono coloro che osano cercarli. Città grandi, piccole, simili e così diverse allo stesso tempo, sono nascoste in tutta la mappa per essere scoperte da chi le visita. Ogni provincia ha una storia che ti aspetta, tu devi trovare la tua.";
             document.getElementById('paq').innerHTML="Pacchetti suggeriti";
             document.getElementById('paq-bsas').innerHTML="Buenos Aires";
             document.getElementById('paq-mendoza').innerHTML="Mendoza";
@@ -93,8 +85,6 @@ function FiltrarIdioma(cod){
             document.getElementById('paq-cataratas-text').innerHTML="Le Cascate di Iguazu sono una delle Sette Meraviglie del Mondo, sono formate da 275 cascate che cadono dalle altezze più diverse. Dal basso si raggiunge la base delle cascate, dove la forza dell'acqua si trasforma in rugiada o vapore che bagna i partecipanti. Si trovano a nord-est, un'area di giungla subtropicale, sono le cascate più conosciute dell'intera regione e il loro sfruttamento turistico ha un buon sviluppo delle infrastrutture e passeggiate molto diverse. È un'area del Parco Nazionale dell'Iguazú, dove sono conservate la flora e la fauna originali. Il suo salto più impressionante è la cosiddetta gola del diavolo.";
         break;
         case 'fr':
-            document.getElementById('conarg').innerHTML='Connaître l Argentine';
-            document.getElementById('conarg-text').innerHTML="Dans chacune des provinces qui composent l'Argentine, il existe différentes attractions, destinations et trésors impossibles à imaginer. Vous pouvez trouver une variété de villes et de zones géographiques qui nous motiveront sûrement à commencer un voyage. Des paysages avec des chaînes de montagnes, des montagnes, des ruisseaux, des rivières, des lacs, des lagunes, des campagnes et de la mer attendent ceux qui osent les chercher. De grandes villes, petites, semblables et si différentes à la fois, sont cachées tout au long de la carte pour être découvertes par quiconque les visite. Chaque province a une histoire qui vous attend, vous devez trouver la vôtre.";
             document.getElementById('paq').innerHTML="Forfaits suggérés";
             document.getElementById('paq-bsas').innerHTML="Buenos Aires";
             document.getElementById('paq-mendoza').innerHTML="Mendoza";
@@ -150,8 +140,7 @@ switch (lang[0]) {
 
 switch (lang[0]) {
     case 'es':
-        document.getElementById('conarg').innerHTML='Conociendo Argentina';
-        document.getElementById('conarg-text').innerHTML='Dentro de cada una de las provincias que conforman la Argentina existen distintos atractivos, destinos y tesoros imposibles de imaginar. Podras encontrar variedad de ciudades y geografías propias que seguramente lograrán incentivarnos para comenzar un viaje. Paisajes con sierras, montañas, quebradas, ríos, lagos, lagunas, campo y mar esperan a quien se anime a buscarlos. Ciudades grandes, chicas, parecidas y tan distintas a la vez, se esconden a lo largo del mapa para ser descubiertas por quién las visite. Cada provincia tiene una historia que te está esperando, tenés que encontrar la tuya.';
+
         document.getElementById('paq').innerHTML="Paquetes Sugeridos";
         document.getElementById('paq-bsas').innerHTML="Paquete Buenos Aires";
         document.getElementById('paq-mendoza').innerHTML="Paquete Mendoza";
@@ -163,8 +152,7 @@ switch (lang[0]) {
         document.getElementById('paq-cataratas-text').innerHTML="Las Cataratas del Iguazú son una de las Siete Maravillas del Mundo, están conformadas por 275 saltos de agua que caen desde las más diversas alturas. Desde el inferior se llega a la base de los saltos, donde la fuerza del agua se transforma en rocío o vapor que moja a los concurrentes. Están ubicadas al noreste, zona de selva subtropical, son las cataratas más conocidas de toda la región y su explotación turística cuenta con buen desarrollo de infraestructura y con paseos muy diversos. Es zona del parque nacional Iguazú, donde se preservan la flora y fauna originales. Su salto más imponente es la llamada Garganta del Diablo.";            
     break;
     case 'pt':
-        document.getElementById('conarg').innerHTML='Conhecendo a argentina';
-        document.getElementById('conarg-text').innerHTML='Dentro de cada uma das províncias que compõem a Argentina existem diferentes atrações, destinos e tesouros impossíveis de imaginar. Você pode encontrar uma variedade de cidades e geografias que certamente nos motivarão a iniciar uma viagem. Paisagens com cordilheiras, montanhas, riachos, rios, lagos, lagoas, campo e mar aguardam quem ousar procurá-las. Cidades grandes, pequenas, semelhantes e tão diferentes ao mesmo tempo, ficam escondidas por todo o mapa para serem descobertas por quem as visita. Cada província tem uma história que te espera, tens que encontrar a tua.';
+
         document.getElementById('paq').innerHTML="Pacotes Sugeridos";
         document.getElementById('paq-bsas').innerHTML="Buenos Aires";
         document.getElementById('paq-mendoza').innerHTML="Mendoza";
@@ -176,9 +164,7 @@ switch (lang[0]) {
         document.getElementById('paq-cataratas-text').innerHTML="As Cataratas do Iguaçu são uma das Sete Maravilhas do Mundo, são formadas por 275 cachoeiras que caem das mais diversas alturas. Do fundo chega-se à base das quedas, onde a força da água se transforma em orvalho ou vapor que molha os participantes. Localizadas ao Nordeste, uma área de selva subtropical, são as cachoeiras mais conhecidas de toda a região e seu aproveitamento turístico conta com bom desenvolvimento de infraestrutura e passeios muito diversos. É uma área do Parque Nacional do Iguaçu, onde a flora e a fauna originais são preservadas. Seu salto mais impressionante é a chamada Garganta do Diabo.";
     break;
     case 'en':
-        document.getElementById('conarg').innerHTML='Knowing Argentina';
-        document.getElementById('conarg-text').innerHTML='Within each of the provinces that make up Argentina there are different attractions, destinations and treasures impossible to imagine. You will be able to find a variety of cities and geographies that will surely motivate us to start a trip. Landscapes with mountain ranges, mountains, streams, rivers, lakes, lagoons, countryside and sea await those who dare to look for them. Large cities, small, similar and so different at the same time, are hidden throughout the map to be discovered by whoever visits them. Each province has a story that is waiting for you, you have to find yours.';
-        document.getElementById('paq').innerHTML="Suggested packages";
+
         document.getElementById('paq-bsas').innerHTML="Buenos Aires";
         document.getElementById('paq-mendoza').innerHTML="Mendoza";
         document.getElementById('paq-bariloche').innerHTML="Bariloche";
@@ -189,8 +175,6 @@ switch (lang[0]) {
         document.getElementById('paq-cataratas-text').innerHTML="The Iguazu Falls are one of the Seven Wonders of the World, they are made up of 275 waterfalls that fall from the most diverse heights. From the bottom one reaches the base of the falls, where the force of the water is transformed into dew or steam that wets the attendees. They are located to the northeast, a subtropical jungle area, they are the best known waterfalls in the entire region and their tourist exploitation has good infrastructure development and very diverse walks. It is an area of the Iguazú National Park, where the original flora and fauna are preserved. Its most impressive jump is the so-called Devil's Throat.";
     break;
     case 'it':
-        document.getElementById('conarg').innerHTML='Conoscere l Argentina';
-        document.getElementById('conarg-text').innerHTML="All'interno di ciascuna delle province che compongono l'Argentina ci sono diverse attrazioni, destinazioni e tesori impossibili da immaginare. Puoi trovare una varietà di città e aree geografiche che sicuramente ci motiveranno ad iniziare un viaggio. Paesaggi con catene montuose, montagne, torrenti, fiumi, laghi, lagune, campagne e mare attendono coloro che osano cercarli. Città grandi, piccole, simili e così diverse allo stesso tempo, sono nascoste in tutta la mappa per essere scoperte da chi le visita. Ogni provincia ha una storia che ti aspetta, tu devi trovare la tua.";
         document.getElementById('paq').innerHTML="Pacchetti suggeriti";
         document.getElementById('paq-bsas').innerHTML="Buenos Aires";
         document.getElementById('paq-mendoza').innerHTML="Mendoza";
@@ -202,8 +186,6 @@ switch (lang[0]) {
         document.getElementById('paq-cataratas-text').innerHTML="Le Cascate di Iguazu sono una delle Sette Meraviglie del Mondo, sono formate da 275 cascate che cadono dalle altezze più diverse. Dal basso si raggiunge la base delle cascate, dove la forza dell'acqua si trasforma in rugiada o vapore che bagna i partecipanti. Si trovano a nord-est, un'area di giungla subtropicale, sono le cascate più conosciute dell'intera regione e il loro sfruttamento turistico ha un buon sviluppo delle infrastrutture e passeggiate molto diverse. È un'area del Parco Nazionale dell'Iguazú, dove sono conservate la flora e la fauna originali. Il suo salto più impressionante è la cosiddetta gola del diavolo.";
     break;
     case 'fr':
-        document.getElementById('conarg').innerHTML='Connaître l Argentine';
-        document.getElementById('conarg-text').innerHTML="Dans chacune des provinces qui composent l'Argentine, il existe différentes attractions, destinations et trésors impossibles à imaginer. Vous pouvez trouver une variété de villes et de zones géographiques qui nous motiveront sûrement à commencer un voyage. Des paysages avec des chaînes de montagnes, des montagnes, des ruisseaux, des rivières, des lacs, des lagunes, des campagnes et de la mer attendent ceux qui osent les chercher. De grandes villes, petites, semblables et si différentes à la fois, sont cachées tout au long de la carte pour être découvertes par quiconque les visite. Chaque province a une histoire qui vous attend, vous devez trouver la vôtre.";
         document.getElementById('paq').innerHTML="Forfaits suggérés";
         document.getElementById('paq-bsas').innerHTML="Buenos Aires";
         document.getElementById('paq-mendoza').innerHTML="Mendoza";

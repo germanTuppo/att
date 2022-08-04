@@ -85,8 +85,50 @@
    font-size: 2rem;
 }
 
-.text-justify{
-   margin: 5px;
-   text-align: justify;
-   text-decoration: none;
+.vinietas{
+   list-style-type: circle;
+}
+
+.vinietas li{
+   color: rgb(4, 4, 53);
+}
+
+.texto-modal{
+   margin-top:-20px;
+}
+
+
+/* .opiniones{
+   width: 100%;
+   height: 400px;
+} */
+
+.img-opiniones{
+   filter: grayscale(90%);
+   object-fit: cover;
+   @media screen and (max-width:1600px) {
+      height: 600px;
+   }
+   @media screen and (max-width:1200px) {
+      height: 600px;
+   }
+   @media screen and (max-width:800px) {
+      height: 800px;
+   }
+}
+
+.texto-opiniones{
+   font-size: calc(1.5rem);
+   @media screen and (max-width:1200px) {
+      font-size: calc(12px + 1vw);
+   }
+
+   font-weight: bold;
+   color: rgb(1, 4, 15);
+}
+
+.titulo-opiniones{
+   font-size: 2rem;
+   font-weight: bold;
+   color: rgb(1, 4, 15);
 }
